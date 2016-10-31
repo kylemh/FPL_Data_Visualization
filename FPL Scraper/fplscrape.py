@@ -28,5 +28,6 @@ def get_old_stats(url_range):
 
         # Put player name as dictionary key. Remaining data is the key for each entry
         temp = r.json()
+        print(temp)
 
-parse_data(all_data)
+get_old_stats(5)
