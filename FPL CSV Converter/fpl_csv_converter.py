@@ -1,4 +1,4 @@
-import requests
+import requests, json, shutil, hashlib, glob, os
 
 PLAYER_NAMES = []
 PLAYER_DATA_DICT = {}
@@ -9,7 +9,7 @@ def munge_data(dict):
     return
 
 
-# Use FPL API bootstrap endpoint to get player names.
+# Use FPL API bootstrap endpoint to get player names for the keys of PLAYER_DATA_DICT.
 def get_player_names():
     r = requests.get('https://fantasy.premierleague.com/drf/bootstrap-static')
     print('Getting Player Names...')
@@ -23,15 +23,15 @@ def get_player_names():
     print(PLAYER_NAMES)
 
 
-# Cycle through FPL API endpoint for individual players' past history.
-def get_player_past():
+# Cycle through FPL API endpoint for individual players' stats and create a singular JSON file.
+def get_player_json():
     misses = 0
-    player_id = 595
+    player_id = 597
+    player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
 
     while True:
-        player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'.format(player_id)
         print('Grabbing Player #' + str(player_id))
-        r = requests.get(player_url)
+        r = requests.get(player_url.format(player_id))
 
         # Skip broken URLs
         if r.status_code != 200:
@@ -39,8 +39,8 @@ def get_player_past():
             print('BROKEN URL @ PLAYER #: ' + str(player_id) + '\n')
             player_id += 1
             # More than one miss in a row - end of requests!
-            if misses > 1:
-                print('Two broken URls in a row... Were (likely) through all the players!')
+            if misses > 2:
+                print('Three broken URls in a row... Were (likely) through all the players!\n')
                 break
             continue
 
@@ -54,8 +54,11 @@ def get_player_past():
 
         player_id += 1
 
+    fn = "data/players.{}.json"
+    with file(fn, 'w') as outfile:
+        json.dump(PLAYER_DATA_DICT, outfile, indent = 2)
 
 get_player_names()
 print()
-get_player_past()
+get_player_json()
 print(PLAYER_DATA_DICT)
