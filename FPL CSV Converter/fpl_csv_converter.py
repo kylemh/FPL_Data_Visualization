@@ -17,7 +17,7 @@ def get_player_names():
     player = r.json()
 
     # TODO: Create dynamic manner of counting players listed in API
-    for i in range(598):
+    for i in range(599):
         PLAYER_NAMES.append(player['elements'][i]['first_name'] + ' ' + player['elements'][i]['second_name'])
 
     print(PLAYER_NAMES)
@@ -26,7 +26,7 @@ def get_player_names():
 # Cycle through FPL API endpoint for individual players' stats and create a singular JSON file.
 def get_player_json():
     misses = 0
-    player_id = 597
+    player_id = 594
     player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
 
     while True:
@@ -47,18 +47,24 @@ def get_player_json():
         # Reset 'missing' counter.
         misses = 0
 
+        player_json = r.json()
+        parsed_player_data = {"Past Seasons": player_json['history_past'],
+                              "This Season's Games": player_json['history'],
+                              "Future Fixtures": player_json['fixtures']}
+
         try:
-            PLAYER_DATA_DICT[PLAYER_NAMES[player_id-1]] = r.json()
+            PLAYER_DATA_DICT[PLAYER_NAMES[player_id-1]] = parsed_player_data
         except ValueError:
             print('FAILED TO PARSE PLAYER #' + str(player_id) + '\n')
 
         player_id += 1
 
-    fn = "data/players.{}.json"
-    with file(fn, 'w') as outfile:
-        json.dump(PLAYER_DATA_DICT, outfile, indent = 2)
-
 get_player_names()
 print()
 get_player_json()
-print(PLAYER_DATA_DICT)
+
+for player in PLAYER_DATA_DICT:
+    print(player)
+    for json in PLAYER_DATA_DICT[player]:
+        print(json, ':', PLAYER_DATA_DICT[player][json])
+    print()
