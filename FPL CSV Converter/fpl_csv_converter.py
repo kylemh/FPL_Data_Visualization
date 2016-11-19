@@ -1,24 +1,27 @@
-import requests, json, shutil, hashlib, glob, os
+import requests, sys, csv
 
 PLAYER_NAMES = []
 PLAYER_DATA_DICT = {}
 
 
-# Used to choose the relevant data
-def munge_data(dict):
-    return
+# Used to convert the dictionaries of JSON into a CSV files
+def dict_to_csv(player_data_dict):
+    player_data_dict = 1    # history-past, history, fixtures
+    return player_data_dict
 
 
 # Use FPL API bootstrap endpoint to get player names for the keys of PLAYER_DATA_DICT.
+# Also used to define number of players in catalogued in FPL (to avoid requests in other functions)
 def get_player_names():
     r = requests.get('https://fantasy.premierleague.com/drf/bootstrap-static')
     print('Getting Player Names...')
 
-    player = r.json()
+    bootstrap_data = r.json()
+    global NUM_PLAYERS
+    NUM_PLAYERS = len(bootstrap_data['elements'])
 
-    # TODO: Create dynamic manner of counting players listed in API
-    for i in range(599):
-        PLAYER_NAMES.append(player['elements'][i]['first_name'] + ' ' + player['elements'][i]['second_name'])
+    for i in range(NUM_PLAYERS):
+        PLAYER_NAMES.append(bootstrap_data['elements'][i]['first_name'] + ' ' + bootstrap_data['elements'][i]['second_name'])
 
     print(PLAYER_NAMES)
 
@@ -26,45 +29,48 @@ def get_player_names():
 # Cycle through FPL API endpoint for individual players' stats and create a singular JSON file.
 def get_player_json():
     misses = 0
-    player_id = 594
     player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
 
-    while True:
-        print('Grabbing Player #' + str(player_id))
-        r = requests.get(player_url.format(player_id))
+    for i in range(590, NUM_PLAYERS+1):
+        r = requests.get(player_url.format(i))
+        print('Grabbing Player #' + str(i))
 
         # Skip broken URLs
         if r.status_code != 200:
             misses += 1
-            print('BROKEN URL @ PLAYER #: ' + str(player_id) + '\n')
-            player_id += 1
+            print('BROKEN URL @ PLAYER #: ' + str(i) + '\n')
             # More than one miss in a row - end of requests!
-            if misses > 2:
-                print('Three broken URls in a row... Were (likely) through all the players!\n')
-                break
+            if misses > 1:
+                print('Two broken URls in a row... Something is wrong with your connection or the API.\n')
+                sys.exit()
             continue
 
         # Reset 'missing' counter.
         misses = 0
 
         player_json = r.json()
-        parsed_player_data = {"Past Seasons": player_json['history_past'],
-                              "This Season's Games": player_json['history'],
-                              "Future Fixtures": player_json['fixtures']}
+        parsed_player_data = {'Past Seasons Stats': player_json['history_past'],
+                              'Games This Season': player_json['history'],
+                              'Future Fixtures': player_json['fixtures']}
 
-        try:
-            PLAYER_DATA_DICT[PLAYER_NAMES[player_id-1]] = parsed_player_data
-        except ValueError:
-            print('FAILED TO PARSE PLAYER #' + str(player_id) + '\n')
+        PLAYER_DATA_DICT[PLAYER_NAMES[i-1]] = parsed_player_data
+        i += 1
 
-        player_id += 1
 
 get_player_names()
 print()
 get_player_json()
+print()
+dict_to_csv(PLAYER_DATA_DICT)
 
-for player in PLAYER_DATA_DICT:
-    print(player)
-    for json in PLAYER_DATA_DICT[player]:
-        print(json, ':', PLAYER_DATA_DICT[player][json])
-    print()
+# for player in PLAYER_DATA_DICT:
+#     if len(PLAYER_DATA_DICT[player]['Past Seasons Stats']) == 0:
+#         print(player)
+#         print('Games This Season : ', PLAYER_DATA_DICT[player]['Games This Season'])
+#         print('Future Fixtures : ',PLAYER_DATA_DICT[player]['Future Fixtures'])
+#         print()
+#     else:
+#         print(player)
+#         for json in PLAYER_DATA_DICT[player]:
+#             print(json, ':', PLAYER_DATA_DICT[player][json])
+#         print()
