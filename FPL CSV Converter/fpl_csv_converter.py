@@ -5,9 +5,9 @@ PLAYER_DATA_DICT = {}
 
 
 # Used to convert the dictionaries of JSON into a CSV files
-def dict_to_csv(player_data_dict):
-    player_data_dict = 1    # history-past, history, fixtures
-    return player_data_dict
+# def dict_to_csv(player_data_dict):
+#     player_data_dict = 1    # history-past, history, fixtures
+#     return player_data_dict
 
 
 # Use FPL API bootstrap endpoint to get player names for the keys of PLAYER_DATA_DICT.
@@ -17,6 +17,7 @@ def get_player_names():
     print('Getting Player Names...')
 
     bootstrap_data = r.json()
+    print(bootstrap_data)
     global NUM_PLAYERS
     NUM_PLAYERS = len(bootstrap_data['elements'])
 
@@ -26,7 +27,9 @@ def get_player_names():
     print(PLAYER_NAMES)
 
 
-# Cycle through FPL API endpoint for individual players' stats and create a singular JSON file.
+# Grab a player's current season's statistics from the API static bootstrap JSON
+# Cycle through FPL API endpoint (also in JSON) for individual players' past season's stats
+# Combine all the data to create a singular dictionary file
 def get_player_json():
     misses = 0
     player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
@@ -60,17 +63,15 @@ def get_player_json():
 get_player_names()
 print()
 get_player_json()
-print()
-dict_to_csv(PLAYER_DATA_DICT)
 
-# for player in PLAYER_DATA_DICT:
-#     if len(PLAYER_DATA_DICT[player]['Past Seasons Stats']) == 0:
-#         print(player)
-#         print('Games This Season : ', PLAYER_DATA_DICT[player]['Games This Season'])
-#         print('Future Fixtures : ',PLAYER_DATA_DICT[player]['Future Fixtures'])
-#         print()
-#     else:
-#         print(player)
-#         for json in PLAYER_DATA_DICT[player]:
-#             print(json, ':', PLAYER_DATA_DICT[player][json])
-#         print()
+for player in PLAYER_DATA_DICT:
+    if len(PLAYER_DATA_DICT[player]['Past Seasons Stats']) == 0:
+        print(player)
+        print('Games This Season : ', PLAYER_DATA_DICT[player]['Games This Season'])
+        print('Future Fixtures : ',PLAYER_DATA_DICT[player]['Future Fixtures'])
+        print()
+    else:
+        print(player)
+        for json in PLAYER_DATA_DICT[player]:
+            print(json, ':', PLAYER_DATA_DICT[player][json])
+        print()
