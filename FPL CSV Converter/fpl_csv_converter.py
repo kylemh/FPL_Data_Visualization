@@ -22,7 +22,9 @@ def get_player_names():
     NUM_PLAYERS = len(bootstrap_data['elements'])
 
     for i in range(NUM_PLAYERS):
-        PLAYER_NAMES.append(bootstrap_data['elements'][i]['first_name'] + ' ' + bootstrap_data['elements'][i]['second_name'])
+        PLAYER_NAMES.append(bootstrap_data['elements'][i]['first_name']
+                            + ' '
+                            + bootstrap_data['elements'][i]['second_name'])
 
     print(PLAYER_NAMES)
 
@@ -50,6 +52,10 @@ def get_player_json():
 
         # Reset 'missing' counter.
         misses = 0
+
+        player_id = i
+        # match_id = player_json['history'][0]['fixture']
+
 
         player_json = r.json()
         parsed_player_data = {'Past Seasons Stats': player_json['history_past'],
