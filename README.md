@@ -17,4 +17,5 @@ We chose to analyze the English Premier League as our source of data.
 </ul>
 
 <b>To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb)</b>
+<br>
 <b>To view our Python Web Scraper, click [HERE](https://github.com/kylemh/FPL-DataVisualization/blob/master/FPL%20CSV%20Converter/fpl_csv_converter.py)</b>
