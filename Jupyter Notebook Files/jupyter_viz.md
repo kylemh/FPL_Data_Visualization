@@ -11,7 +11,7 @@ player_data.head(2)
       warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
 
 
-
+<h1>Please view using NBVIEWER by clicking [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb)</h1>
 
 
 <div>
@@ -1494,12 +1494,3 @@ py.iplot( fig, validate=False, filename='d3-bubble-map-populations' )
 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~zoe1114/4.embed" height="525px" width="100%"></iframe>
-
-
-
-Please view using NBVIEWER through this link: http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb
-
-
-```python
-
-```
