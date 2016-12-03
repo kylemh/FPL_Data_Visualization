@@ -1,6 +1,6 @@
 <h4>Please view using NBVIEWER by clicking here:
 <br>
-http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb</h4>
+http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/Jupyter Notebook Files/jupyter_viz.ipynb</h4>
 
 ```python
 import pandas as pd
