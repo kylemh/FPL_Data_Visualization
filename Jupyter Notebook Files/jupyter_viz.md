@@ -1,5 +1,5 @@
-<h2>Please view using NBVIEWER by clicking here:
-http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb</h2>
+<h4>Please view using NBVIEWER by clicking here:
+http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb</h4>
 
 ```python
 import pandas as pd
