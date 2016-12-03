@@ -36,6 +36,7 @@ def get_player_json():
     misses = 0
     player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
 
+    # Convert range from i to NUM_PLAYERS+1 when running complete
     for i in range(590, NUM_PLAYERS+1):
         r = requests.get(player_url.format(i))
         print('Grabbing Player #' + str(i))
@@ -53,10 +54,6 @@ def get_player_json():
         # Reset 'missing' counter.
         misses = 0
 
-        player_id = i
-        # match_id = player_json['history'][0]['fixture']
-
-
         player_json = r.json()
         parsed_player_data = {'Past Seasons Stats': player_json['history_past'],
                               'Games This Season': player_json['history'],
@@ -66,6 +63,9 @@ def get_player_json():
         i += 1
 
 
+# ############ #
+# Main Program #
+################
 get_player_names()
 print()
 get_player_json()
