@@ -1,4 +1,4 @@
-
+<h1>Please view using NBVIEWER by clicking [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb)</h1>
 
 ```python
 import pandas as pd
@@ -9,10 +9,6 @@ player_data.head(2)
 
     /Users/zoeolson1/anaconda/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
       warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
-
-
-<h1>Please view using NBVIEWER by clicking [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-DataVisualization/blob/master/jupyter_viz.ipynb)</h1>
-
 
 <div>
 <table border="1" class="dataframe">
