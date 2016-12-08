@@ -21,7 +21,7 @@ def get_curr_stats():
     NUM_PLAYERS = len(bootstrap_data['elements'])
 
     for i in range(NUM_PLAYERS):
-        # Get Player Names
+        # Get Player Names - unidecode replaces accented letters in player names with ascii characters
         PLAYER_NAMES.append(unidecode(bootstrap_data['elements'][i]['first_name'])
                             + ' '
                             + unidecode(bootstrap_data['elements'][i]['second_name']))
