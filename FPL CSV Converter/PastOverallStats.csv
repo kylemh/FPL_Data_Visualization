@@ -1,0 +1,5 @@
+pid,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,ea_index,previous_pl_seasons
+600,45,0,0,0,1,0,0,0,0,0,0,3,4
+601,0,0,0,0,0,0,0,0,0,0,0,0,2
+602,1895,0,1,5,33,0,0,0,2,1,0,183,3
+597,1080,0,0,0,25,0,1,0,0,0,47,18,7
