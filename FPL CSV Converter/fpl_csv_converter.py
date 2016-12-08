@@ -1,11 +1,15 @@
 import requests
 import sys
-import json
 import csv
+import time
+import os
+import pandas as pd
+from unidecode import unidecode
 
 PLAYER_NAMES = []
-PAST_SEASON_STATS = {}
+TOTAL_PAST_STATS = {}
 CURR_SEASON_STATS = {}
+PLAYERS = {}
 
 
 # Use FPL API bootstrap endpoint to get player names and current season stats.
@@ -18,9 +22,9 @@ def get_curr_stats():
 
     for i in range(NUM_PLAYERS):
         # Get Player Names
-        PLAYER_NAMES.append(bootstrap_data['elements'][i]['first_name']
+        PLAYER_NAMES.append(unidecode(bootstrap_data['elements'][i]['first_name'])
                             + ' '
-                            + bootstrap_data['elements'][i]['second_name'])
+                            + unidecode(bootstrap_data['elements'][i]['second_name']))
 
         # Get Player's Current Season Stats
         curr_season_data = {'pid':  bootstrap_data['elements'][i]['id'],
@@ -41,12 +45,16 @@ def get_curr_stats():
                             'threat': float(bootstrap_data['elements'][i]['threat']),
                             'ict_index': float(bootstrap_data['elements'][i]['ict_index']),
                             'selected_by_percent': float(bootstrap_data['elements'][i]['selected_by_percent'])}
+        # Create CurrentSeasonStats Table
         CURR_SEASON_STATS[PLAYER_NAMES[i]] = curr_season_data
+
+        # Create Player Table
+        PLAYERS[PLAYER_NAMES[i]] = {'name': PLAYER_NAMES[i], 'pid':  bootstrap_data['elements'][i]['id']}
 
 
 # If a player has data for past seasons in the API endpoint, call this function
 # psc = past season count
-def get_past_season_stats(pid, data, psc):
+def get_TOTAL_PAST_STATS(pid, data, psc):
     previous_pl_seasons = psc
 
     # Variable declarations for summed past statistic headers
@@ -116,47 +124,90 @@ def get_past_stats():
 
         # If player has played in PL before...
         if past_season_count > 0:
-            PAST_SEASON_STATS[PLAYER_NAMES[pid - 1]] = get_past_season_stats(pid, player_past_json, past_season_count)
+            TOTAL_PAST_STATS[PLAYER_NAMES[pid - 1]] = get_TOTAL_PAST_STATS(pid, player_past_json, past_season_count)
 
         # Next player...
         pid += 1
+
+
+# Convert PLAYERS into CSV file with headers
+# fn = file name | jd = JSON or dictionary data
+def player_dict_to_csv(jd, fn):
+    with open(fn, 'w') as csvfile:
+        headers = ['name', 'pid']
+        try:
+            writer = csv.DictWriter(csvfile, fieldnames=headers)
+            writer.writeheader()
+            for i in jd:
+                writer.writerow(jd[i])
+        finally:
+            print('PLAYERS written to CSV successfully.')
 
 
 # Convert CURR_SEASON_STATS into CSV file with headers
 # fn = file name | jd = JSON or dictionary data
 def curr_dict_to_csv(jd, fn):
     with open(fn, 'w') as csvfile:
-        headers = ['pid','minutes', 'goals_scored', 'assists', 'clean_sheets', 'goals_conceded', 'own_goals',
+        headers = ['pid', 'minutes', 'goals_scored', 'assists', 'clean_sheets', 'goals_conceded', 'own_goals',
                    'penalties_saved', 'penalties_missed', 'yellow_cards', 'red_cards', 'saves', 'ea_index',
                    'influence', 'creativity', 'threat', 'ict_index', 'selected_by_percent']
-        writer = csv.DictWriter(csvfile, fieldnames=headers)
-        writer.writeheader()
-        for i in jd:
-            writer.writerow(jd[i])
+        try:
+            writer = csv.DictWriter(csvfile, fieldnames=headers)
+            writer.writeheader()
+            for i in jd:
+                writer.writerow(jd[i])
+        finally:
+            print('CURR_SEASON_STATS written to CSV successfully.')
 
 
-# Convert PAST_SEASON_STATS into CSV file with headers
+# Convert TOTAL_PAST_STATS into CSV file with headers
 # fn = file name | jd = JSON or dictionary
 def past_dict_to_csv(jd, fn):
     with open(fn, 'w') as csvfile:
         headers = ['pid', 'minutes', 'goals_scored', 'assists', 'clean_sheets', 'goals_conceded', 'own_goals',
                    'penalties_saved', 'penalties_missed', 'yellow_cards', 'red_cards', 'saves', 'ea_index',
                    'previous_pl_seasons']
-        writer = csv.DictWriter(csvfile, fieldnames=headers)
-        writer.writeheader()
-        for i in jd:
-            writer.writerow(jd[i])
+        try:
+            writer = csv.DictWriter(csvfile, fieldnames=headers)
+            writer.writeheader()
+            for i in jd:
+                writer.writerow(jd[i])
+        finally:
+            print('TOTAL_PAST_STATS written to CSV successfully.')
+
+
+# Use pandas to sort CSVs and delete unsorted arg CSVs
+def sort_csv(csv_filename, sorting_key):
+    df = pd.read_csv(csv_filename)
+    df = df.sort_values(by=sorting_key)
+    os.remove(csv_filename)
+    df.to_csv(csv_filename, index=False)
+
+
+# Collection function for relevant data acquisition functions
+def get_data():
+    print('...Getting player names and current season stats...\n')
+    get_curr_stats()
+    print('...Getting players past season stats (if any)...\n')
+    get_past_stats()
+
+
+# Collection function for relevant exporting functions
+def export_data():
+    print('...Writing CSV Files...\n')
+    player_dict_to_csv(PLAYERS, 'Players.csv')
+    curr_dict_to_csv(CURR_SEASON_STATS, 'CurrentSeasonStats.csv')
+    past_dict_to_csv(TOTAL_PAST_STATS, 'TotalPastStats.csv')
+    time.sleep(1)
+    print('...Sorting CSV Files...\n')
+    sort_csv('Players.csv', 'pid')
+    sort_csv('CurrentSeasonStats.csv', 'pid')
+    sort_csv('TotalPastStats.csv', 'pid')
 
 
 # Main
-print('...Getting player names and current season stats...\n')
-get_curr_stats()
-print('...Getting players\' past season stats (if any)...\n')
-get_past_stats()
-print('\n...Writing CSV Files...\n')
-
-curr_dict_to_csv(CURR_SEASON_STATS, 'CurrentSeasonStats.csv')
-past_dict_to_csv(PAST_SEASON_STATS, 'PastOverallStats.csv')
+get_data()
+export_data()
 
 
 # print('\n...Printing sample data...\n')
@@ -166,8 +217,8 @@ past_dict_to_csv(PAST_SEASON_STATS, 'PastOverallStats.csv')
 #     if CURR_SEASON_STATS[player]['goals_scored'] >= 10:
 #         print(player, ' scored ', CURR_SEASON_STATS[player]['goals_scored'], ' goals.')
 #
-# # Test Print - PAST_SEASON_STATS
+# # Test Print - TOTAL_PAST_STATS
 # print("\nTHE OVERALL TOP GOAL SCORERS STILL PLAYING!\n")
-# for player in PAST_SEASON_STATS:
-#     if PAST_SEASON_STATS[player]['goals_scored'] > 100:
-#         print(player, ' scored ', PAST_SEASON_STATS[player]['goals_scored'], ' goals.')
+# for player in TOTAL_PAST_STATS:
+#     if TOTAL_PAST_STATS[player]['goals_scored'] > 100:
+#         print(player, ' scored ', TOTAL_PAST_STATS[player]['goals_scored'], ' goals.')
