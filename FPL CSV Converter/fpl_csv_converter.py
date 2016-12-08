@@ -1,23 +1,19 @@
-import requests, sys, csv
+import requests
+import sys
+import csv
 
 PLAYER_NAMES = []
-PLAYER_DATA_DICT = {}
+PAST_SEASON_STATS = {}
+CURR_SEASON_STATS = {}
 
 
-# Used to convert the dictionaries of JSON into a CSV files
-# def dict_to_csv(player_data_dict):
-#     player_data_dict = 1    # history-past, history, fixtures
-#     return player_data_dict
-
-
-# Use FPL API bootstrap endpoint to get player names for the keys of PLAYER_DATA_DICT.
-# Also used to define number of players in catalogued in FPL (to avoid requests in other functions)
+# Use FPL API bootstrap endpoint to get player names and current season stats.
+# Also used to define number of players in catalogued in FPL (to avoid unnecessary HTTP requests)
 def get_player_names():
     r = requests.get('https://fantasy.premierleague.com/drf/bootstrap-static')
-    print('Getting Player Names...')
+    print('\n...Getting player names and current season stats...')
 
     bootstrap_data = r.json()
-    print(bootstrap_data)
     global NUM_PLAYERS
     NUM_PLAYERS = len(bootstrap_data['elements'])
 
@@ -25,6 +21,22 @@ def get_player_names():
         PLAYER_NAMES.append(bootstrap_data['elements'][i]['first_name']
                             + ' '
                             + bootstrap_data['elements'][i]['second_name'])
+        curr_season_data = {'Season 2016/2017':   bootstrap_data['elements'][i]['id']
+                                                + bootstrap_data['elements'][i]['minutes']
+                                                + bootstrap_data['elements'][i]['goals_scored']
+                                                + bootstrap_data['elements'][i]['assists']
+                                                + bootstrap_data['elements'][i]['clean_sheets']
+                                                + bootstrap_data['elements'][i]['goals_conceded']
+                                                + bootstrap_data['elements'][i]['own_goals']
+                                                + bootstrap_data['elements'][i]['penalties_saved']
+                                                + bootstrap_data['elements'][i]['penalties_missed']
+                                                + bootstrap_data['elements'][i]['yellow_cards']
+                                                + bootstrap_data['elements'][i]['red_cards']
+                                                + bootstrap_data['elements'][i]['saves']
+                                                + bootstrap_data['elements'][i]['ea_index']
+                                                + bootstrap_data['elements'][i][int('ict_index')]
+                                                + bootstrap_data['elements'][i][float('selected_by_percent')]}
+        CURR_SEASON_STATS[PLAYER_NAMES[i - 1]] = curr_season_data
 
     print(PLAYER_NAMES)
 
@@ -37,7 +49,7 @@ def get_player_json():
     player_url = 'https://fantasy.premierleague.com/drf/element-summary/{}'
 
     # Convert range from i to NUM_PLAYERS+1 when running complete
-    for i in range(590, NUM_PLAYERS+1):
+    for i in range(590, NUM_PLAYERS + 1):
         r = requests.get(player_url.format(i))
         print('Grabbing Player #' + str(i))
 
@@ -55,11 +67,9 @@ def get_player_json():
         misses = 0
 
         player_json = r.json()
-        parsed_player_data = {'Past Seasons Stats': player_json['history_past'],
-                              'Games This Season': player_json['history'],
-                              'Future Fixtures': player_json['fixtures']}
+        parsed_player_data = {'Past Seasons Stats': player_json['history_past']}
 
-        PLAYER_DATA_DICT[PLAYER_NAMES[i-1]] = parsed_player_data
+        PAST_SEASON_STATS[PLAYER_NAMES[i - 1]] = parsed_player_data
         i += 1
 
 
@@ -70,14 +80,14 @@ get_player_names()
 print()
 get_player_json()
 
-for player in PLAYER_DATA_DICT:
-    if len(PLAYER_DATA_DICT[player]['Past Seasons Stats']) == 0:
+for player in PAST_SEASON_STATS:
+    if len(PAST_SEASON_STATS[player]['Past Seasons Stats']) == 0:
         print(player)
-        print('Games This Season : ', PLAYER_DATA_DICT[player]['Games This Season'])
-        print('Future Fixtures : ',PLAYER_DATA_DICT[player]['Future Fixtures'])
+        print('Games This Season : ', PAST_SEASON_STATS[player]['Games This Season'])
+        print('Future Fixtures : ', PAST_SEASON_STATS[player]['Future Fixtures'])
         print()
     else:
         print(player)
-        for json in PLAYER_DATA_DICT[player]:
-            print(json, ':', PLAYER_DATA_DICT[player][json])
+        for json in PAST_SEASON_STATS[player]:
+            print(json, ':', PAST_SEASON_STATS[player][json])
         print()
