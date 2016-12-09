@@ -54,7 +54,7 @@ def get_curr_stats():
 
 # If a player has data for past seasons in the API endpoint, call this function
 # psc = past season count
-def get_TOTAL_PAST_STATS(pid, data, psc):
+def get_past_data(pid, data, psc):
     previous_pl_seasons = psc
 
     # Variable declarations for summed past statistic headers
@@ -124,10 +124,14 @@ def get_past_stats():
 
         # If player has played in PL before...
         if past_season_count > 0:
-            TOTAL_PAST_STATS[PLAYER_NAMES[pid - 1]] = get_TOTAL_PAST_STATS(pid, player_past_json, past_season_count)
+            TOTAL_PAST_STATS[PLAYER_NAMES[pid - 1]] = get_past_data(pid, player_past_json, past_season_count)
 
         # Next player...
         pid += 1
+
+
+# Get Match Data for Matches Table
+# def get_match_data():
 
 
 # Convert PLAYERS into CSV file with headers
