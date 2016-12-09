@@ -1,1 +1,606 @@
-pid,name,nationality,position1,Ospina David,Colombia,GKP2,Cech Petr,Czech Republic,GKP3,Koscielny Laurent,France,DEF4,Mertesacker Per,Germany,DEF5,de Abreu Gabriel Armando,Brazil,DEF6,Bellerin Hector,Spain,DEF7,Gibbs Kieran,England,DEF8,Debuchy Mathieu,France,DEF9,Jenkinson Carl,England,DEF10,Monreal Nacho,Spain,DEF11,Chambers Calum,England,DEF12,Sanchez Alexis,Chile,MID13,Walcott Theo,England,MID14,Ozil Mesut,Germany,MID15,Cazorla Santiago,Spain,MID16,Ramsey Aaron,Wales,MID17,Wilshere Jack,England,MID18,Oxlade-Chamberlain Alex,England,MID19,Gnabry Serge,Germany,MID20,Coquelin Francis,France,MID21,Iwobi Alex,Nigeria,MID22,Elneny Mohamed,Egypt,MID23,Campbell Joel,Costa Rica,MID24,Xhaka Granit,Switzerland,MID25,Giroud Olivier,France,FWD26,Welbeck Danny,England,FWD27,Sanogo Yaya,France,FWD28,Asano Takuma,Japan,FWD29,Boruc Artur,Poland,GKP30,Federici Adam,Australia,GKP31,Francis Simon,England,DEF32,Cook Steve,England,DEF33,Daniels Charlie,England,DEF34,Smith Adam,England,DEF35,Mings Tyrone,England,DEF36,Ake Nathan,Netherlands,DEF37,Arter Harry,Ireland,MID38,Pugh Marc,England,MID39,Surman Andrew,England,MID40,O'Kane Eunan,Ireland,MID41,MacDonald Shaun,Wales,MID42,Stanislas Junior,England,MID43,Gosling Dan,England,MID44,Gradel Max,Cote D'Ivoire,MID45,Hyndman Emerson,United States,MID46,Ibe Jordon,England,MID47,Cook Lewis,England,MID48,King Joshua,Norway,MID49,Wilson Callum,England,FWD50,Rantie Tokelo,South Africa,FWD51,Grabban Lewis,England,FWD52,Afobe Benik,Congo,FWD53,Mousset Lys,France,FWD54,Heaton Tom,England,GKP55,Lowton Matthew,England,DEF56,Mee Ben,England,DEF57,Ward Stephen,Ireland,DEF58,Keane Michael,England,DEF59,Tarkowski James,England,DEF60,Darikwa Tendayi,Japan,DEF61,Jones David,England,MID62,Boyd George,Scotland,MID63,Arfield Scott,Canada,MID64,Marney Dean,England,MID65,Ulvestad Fredrik,Norway,MID66,Kightly Michael,England,MID67,Vokes Sam,Wales,FWD68,Gray Andre,England,FWD69,Jutkiewicz Lukas,England,FWD70,Barnes Ashley,Austria,FWD71,Hennings Rouwen,Germany,FWD72,Long Chris,England,FWD73,Courtois Thibaut,Belgium,GKP74,Begovic Asmir,Bosnia And Herzegovina,GKP75,Terry John,England,DEF76,Ivanovic Branislav,Serbia,DEF77,Azpilicueta Cesar,Spain,DEF78,Cahill Gary,England,DEF79,Zouma Kurt,France,DEF80,Baba Abdul Rahman,Ghana,DEF81,Miazga Matt,United States,DEF82,Hazard Eden,Belgium,MID83,Fabregas Cesc,Spain,MID84,dos Santos Emboaba Junior Oscar,Brazil,MID85,Cuadrado Juan,Colombia,MID86,Borges Da Silva Willian,Brazil,MID87,Matic Nemanja,Serbia,MID88,Loftus-Cheek Ruben,England,MID89,Mikel John Obi,Nigeria,MID90,Pedro,Spain,MID91,Traore Bertrand,Burkina Faso,MID92,Moses Victor,Nigeria,MID93,Van Ginkel Marco,Netherlands,MID94,Kenedy,Brazil,MID95,Kante N'Golo,France,MID96,Batshuayi Michy,Belgium,FWD97,Da Silva Costa Diego,Spain,FWD98,Remy Loic,France,FWD99,Speroni Julian,Argentina,GKP100,Hennessey Wayne,Wales,GKP101,McCarthy Alex,England,GKP102,Mandanda Steve,France,GKP103,Tomkins James,England,DEF104,Dann Scott,England,DEF105,Ward Joel,England,DEF106,Kelly Martin,England,DEF107,Delaney Damien,Ireland,DEF108,Souare Pape,Senegal,DEF109,Bolasie Yannick,Congo,MID110,Puncheon Jason,England,MID111,Zaha Wilfried,England,MID112,Jedinak Mile,Australia,MID113,Ledley Joe,Wales,MID114,McArthur James,Scotland,MID115,Mutch Jordon,England,MID116,Williams Jonathan,Wales,MID117,Lee Chung-yong,South Korea,MID118,Cabaye Yohan,France,MID119,Sako Bakary,Mali,MID120,Townsend Andros,England,MID121,Campbell Fraizer,England,FWD122,Wickham Connor,England,FWD123,Robles Joel,Spain,GKP124,Stekelenburg Maarten,Netherlands,GKP125,Baines Leighton,England,DEF126,Coleman Seamus,Ireland,DEF127,Jagielka Phil,England,DEF128,Stones John,England,DEF129,Galloway Brendan,England,DEF130,Browning Tyias,England,DEF131,Pennington Matthew,England,DEF132,Funes Mori Ramiro,Argentina,DEF133,Mirallas Kevin,Belgium,MID134,Barkley Ross,England,MID135,Cleverley Tom,England,MID136,McCarthy James,England,MID137,Barry Gareth,England,MID138,Gibson Darron,Ireland,MID139,Besic Muhamed,Bosnia And Herzegovina,MID140,Oviedo Bryan,Costa Rica,MID141,Deulofeu Gerard,Spain,MID142,Lennon Aaron,England,MID143,Lukaku Romelu,Belgium,FWD144,Kone Arouna,Cote D'Ivoire,FWD145,Niasse Oumar,Senegal,FWD146,McGregor Allan,Scotland,GKP147,Jakupovic Eldin,Switzerland,GKP148,Lenihan Brian,Ireland,DEF149,Davies Curtis,England,DEF150,Dawson Michael,England,DEF151,Odubajo Moses,England,DEF152,Robertson Andrew,Scotland,DEF153,Maguire Harry,England,DEF154,Bruce Alex,Northern Ireland,DEF155,Snodgrass Robert,Scotland,MID156,Clucas Sam,England,MID157,Livermore Jake,England,MID158,Elmohamady Ahmed,Egypt,MID159,Diame Mohamed,Senegal,MID160,Huddlestone Tom,England,MID161,Meyler David,Ireland,MID162,Maloney Shaun,Scotland,MID163,Hernandez Abel,Uruguay,FWD164,Diomande Adama,Norway,FWD165,Schmeichel Kasper,Denmark,GKP166,Zieler Ron-Robert,Germany,GKP167,Morgan Wes,Jamaica,DEF168,Fuchs Christian,Austria,DEF169,Schlupp Jeffrey,Ghana,DEF170,Wasilewski Marcin,Poland,DEF171,de Laet Ritchie,Belgium,DEF172,Simpson Danny,England,DEF173,Huth Robert,Germany,DEF174,Benalouane Yohan,Tunisia,DEF175,Hernandez Luis,Spain,DEF176,Mahrez Riyad,Algeria,MID177,Albrighton Marc,England,MID178,King Andy,England,MID179,Drinkwater Daniel,England,MID180,Inler Gokhan,Switzerland,MID181,Gray Demarai,England,MID182,Amartey Daniel,Ghana,MID183,Mendy Nampalys,France,MID184,Vardy Jamie,England,FWD185,Ulloa Leonardo,Argentina,FWD186,Okazaki Shinji,Japan,FWD187,Musa Ahmed,Nigeria,FWD188,Mignolet Simon,Belgium,GKP189,Karius Loris,Germany,GKP190,Sakho Mamadou,France,DEF191,Lovren Dejan,Croatia,DEF192,Moreno Alberto,Spain,DEF193,Clyne Nathaniel,England,DEF194,Flanagan Jon,England,DEF195,Gomez Joseph,England,DEF196,Randall Connor,England,DEF197,Smith Bradley,England,DEF198,Stewart Kevin,England,DEF199,Matip Joel,Cameroon,DEF200,Lucas Leiva,Brazil,MID201,Henderson Jordan,England,MID202,Allen Joe,Wales,MID203,Coutinho Philippe,Brazil,MID204,Can Emre,Germany,MID205,Lallana Adam,England,MID206,Markovic Lazar,Serbia,MID207,Ojo Oluwaseyi,,MID208,Milner James,England,MID209,Firmino Roberto,Brazil,MID210,Brannagan Cameron,England,MID211,Chirivella Pedro,Spain,MID212,Mane Sadio,Senegal,MID213,Benteke Christian,Belgium,FWD214,Sturridge Daniel,England,FWD215,Balotelli Mario,Italy,FWD216,Ings Danny,England,FWD217,Origi Divock,Belgium,FWD218,Hart Joe,England,GKP219,Caballero Willy,Argentina,GKP220,Kolarov Aleksandar,Serbia,DEF221,Zabaleta Pablo,Argentina,DEF222,Kompany Vincent,Belgium,DEF223,Clichy Gael,France,DEF224,Sagna Bacary,France,DEF225,Mangala Eliaquim,France,DEF226,Otamendi Nicolas,Argentina,DEF227,Delph Fabian,England,MID228,Sterling Raheem,England,MID229,Nasri Samir,France,MID230,Silva David,Spain,MID231,Toure Gnegneri Yaya,Cote D'Ivoire,MID232,Navas Jesus,Spain,MID233,Fernandinho,Brazil,MID234,Reges Fernando Francisco,Brazil,MID235,De Bruyne Kevin,Belgium,MID236,Gundogan Ilkay,Germany,MID237,Nolito,Spain,MID238,Zinchenko Oleksandr,Ukraine,MID239,Aguero Sergio,Argentina,FWD240,Bony Wilfried,Cote D'Ivoire,FWD241,Iheanacho Kelechi,Nigeria,FWD242,de Gea David,Spain,GKP243,Romero Sergio,Argentina,GKP244,Smalling Chris,England,DEF245,Jones Phil,Jones Phil,DEF246,Varela Guillermo,Uruguay,DEF247,Shaw Luke,England,DEF248,Rojo Marcos,Argentina,DEF249,McNair Patrick,Northern Ireland,DEF250,Valencia Antonio,Ecuador,DEF251,Darmian Matteo,Italy,DEF252,Borthwick-Jackson Cameron,England,DEF253,Fosu-Mensah Timothy,Netherlands,DEF254,Blind Daley,Netherlands,DEF255,Bailly Eric,Cote D'Ivoire,DEF256,Mata Juan,Spain,MID257,Fellaini Marouane,Belgium,MID258,Depay Memphis,Netherlands,MID259,Carrick Michael,England,MID260,Young Ashley,England,MID261,Januzaj Adnan,Belgium,MID262,Herrera Ander,Spain,MID263,Pereira Andreas,Brazil,MID264,Schneiderlin Morgan,France,MID265,Schweinsteiger Bastian,Germany,MID266,Lingard Jesse,England,MID267,Martial Anthony,France,MID268,Mkhitaryan Henrikh,Armenia,MID269,Rooney Wayne,England,FWD270,Wilson James,England,FWD271,Rashford Marcus,England,FWD272,Ibrahimovic Zlatan,Sweden,FWD273,Konstantopoulos Dimitrios,Greece,GKP274,Valdes Victor,Spain,GKP275,Ayala Daniel,Spain,DEF276,Friend George,England,DEF277,Fry Dael,England,DEF278,Gibson Ben,England,DEF279,Nsue Lopez Emilio,Equitorial Guinea,DEF280,Bernardo,Colombia,DEF281,Adomah Albert,Ghana,MID282,Downing Stewart,England,MID283,Clayton Adam,England,MID284,Leadbitter Grant,England,MID285,Reach Adam,England,MID286,Forshaw Adam,England,MID287,De Pena Carlos,Uruguay,MID288,de Sart Julien,Belgium,MID289,Fischer Viktor,Denmark,MID290,de Roon Marten,Netherlands,MID291,Nugent David,England,FWD292,Rhodes Jordan,England,FWD293,Stuani Cristhian,Uruguay,FWD294,Forster Fraser,England,GKP295,Gazzaniga Paulo,Argentina,GKP296,Bertrand Ryan,England,DEF297,Fonte Jose,Portugal,DEF298,Yoshida Maya,Japan,DEF299,Targett Matt,England,DEF300,Gardos Florin,Romania,DEF301,Soares Cedric,Portugal,DEF302,Martina Cuco,Netherlands,DEF303,van Dijk Virgil,Netherlands,DEF304,Redmond Nathan,England,MID305,Davis Steven,Northern Ireland,MID306,Ward-Prowse James,England,MID307,Reed Harrison,England,MID308,Tadic Dusan,Serbia,MID309,Clasie Jordy,Netherlands,MID310,Romeu Vidal Oriol,Span,MID311,Rodriguez Jay,Uruguay,MID312,Hojbjerg Pierre-Emile,Denmark,MID313,Long Shane,England,FWD314,Austin Charlie,England,FWD315,Given Shay,Ireland,GKP316,Butland Jack,England,GKP317,Haugaard Jakob,Denmark,GKP318,Shawcross Ryan,England,DEF319,Wilson Marc,Ireland,DEF320,Cameron Geoff,United States,DEF321,Pieters Erik,Netherlands,DEF322,Muniesa Marc,Spain,DEF323,Bardsley Phil,Scotland,DEF324,Wollscheid Philipp,Germany,DEF325,Johnson Glen,England,DEF326,Teixeira Dionatan,Brazil,DEF327,Ireland Stephen,Ireland,MID328,Adam Charlie,Scotland,MID329,Whelan Glenn,Ireland,MID330,Walters Jonathan,England,MID331,Arnautovic Marko,Austria,MID332,Afellay Ibrahim,Netherlands,MID333,Shaqiri Xherdan,Switzerland,MID334,Imbula Giannelli,France,MID335,Krkic Bojan,Spanish,MID336,Crouch Peter,England,FWD337,Diouf Mame Biram,Senegal,FWD338,Joselu,Spain,FWD339,Mannone Vito,Italy,GKP340,Pickford Jordan,England,GKP341,Kaboul Younes,France,DEF342,O'Shea John,Ireland,DEF343,Jones Billy,England,DEF344,van Aanholt Patrick,Netherlands,DEF345,Matthews Adam,Wales,DEF346,Kone Lamine,Cote D'Ivoire,DEF347,Kirchhoff Jan,Germany,MID348,Cattermole Lee,England,MID349,Larsson Sebastian,Sweden,MID350,Rodwell Jack,England,MID351,Lens Jeremain,Netherlands,MID352,Khazri Wahbi,Tunisia,MID353,Watmore Duncan,England,MID354,Borini Fabio,Italy,FWD355,Defoe Jermain,England,FWD356,Fabianski Lukasz,Poland,GKP357,Nordfeldt Kristoffer,Sweden,GKP358,Naughton Kyle,England,DEF359,Williams Ashley,England,DEF360,Taylor Neil,England,DEF361,Rangel Angel,Spain,DEF362,Amat Jordi,Spain,DEF363,Fernandez Federico,Argentina,DEF364,Tabanou Franck,France,DEF365,Kingsley Stephen,Scotland,DEF366,van der Hoorn Mike,Netherlands,DEF367,Cork Jack,England,MID368,Sigurdsson Gylfi,Iceland,MID369,Routledge Wayne,England,MID370,Britton Leon,England,MID371,Fulton Jay,Scotland,MID372,Ki Sung-yueng,South Korea,MID373,Montero Jefferson,Ecuador,MID374,Ayew Andre,Ghana,MID375,Fer Leroy,Netherlands,MID376,Dyer Nathan,England,MID377,Gomis Bafetimbi,France,FWD378,Emnes Marvin,Netherlands,FWD379,Barrow Modou,Gambia,FWD380,Lloris Hugo,France,GKP381,Vorm Michel,Netherlands,GKP382,Alderweireld Toby,Belgium,DEF383,Rose Danny,England,DEF384,Walker Kyle,England,DEF385,Vertonghen Jan,Belgium,DEF386,Davies Ben,England,DEF387,Trippier Kieran,England,DEF388,Wimmer Kevin,Austria,DEF389,Yedlin DeAndre,United States,DEF390,Dier Eric,England,MID391,Dembele Mousa,Belgium,MID392,Chadli Nacer,Belgium,MID393,Lamela Erik,Argentina,MID394,Eriksen Christian,Denmark,MID395,Bentaleb Nabil,Algeria,MID396,Mason Ryan,England,MID397,Carroll Tom,England,MID398,Alli Dele,England,MID399,Onomah Joshua,England,MID400,Wanyama Victor,Kenya,MID401,Pritchard Alex,England,MID402,Son Heung-Min,South Korea,MID403,Kane Harry,England,FWD404,N'Jie Clinton,Cameroon,FWD405,Janssen Vincent,Netherlands,FWD406,Pantilimon Costel,Romania,GKP407,Gomes Heurelho,Brazil,GKP408,Cathcart Craig,Northern Ireland,DEF409,Prodl Sebastian,Austria,DEF410,Paredes Juan Carlos,Ecuador,DEF411,Holebas Jose,Greece,DEF412,Nyom Allan-Romeo,Cameroon,DEF413,Britos Miguel,Uruguay,DEF414,Kabasele Christian,Belgium,DEF415,Guedioura Adlene,Algeria,MID416,Capoue Etienne,France,MID417,Abdi Almen,Switzerland,MID418,Watson Ben,England,MID419,Anya Ikechi,Scotland,MID420,Behrami Valon,Switzerland,MID421,Berghuis Steven,Netherlands,MID422,Amrabat Nordin,Morocco,MID423,Suarez Mario,Spain,MID424,Success Isaac,England,MID425,Deeney Troy,England,FWD426,Ighalo Odion,Nigeria,FWD427,Oulare Obbi,Belgium,FWD428,Sinclair Jerome,England,FWD429,Myhill Boaz,Wales,GKP430,Foster Ben,England,GKP431,Evans Jonny,Northern Ireland,DEF432,Olsson Jonas,Sweden,DEF433,Dawson Craig,England,DEF434,Pocognoli Sebastien,Belgium,DEF435,Gamboa Cristian,Costa Rica,DEF436,McAuley Gareth,Northern Ireland,DEF437,Chester James,Wales,DEF438,Brunt Chris,Northern Ireland,DEF439,Fletcher Darren,Scotland,MID440,Gardner Craig,England,MID441,Morrison James,Scotland,MID442,Yacob Claudio,Argentina,MID443,McManaman Callum,England,MID444,McClean James,Ireland,MID445,Leko Jonathan,England,MID446,Phillips Matt,Scotland,MID447,Lambert Rickie,England,FWD448,Berahino Saido,England,FWD449,Rondon Salomon,Venezuela,FWD450,San Miguel del Castillo Adrian,Spain,GKP451,Randolph Darren,Ireland,GKP452,Collins James,Wales,DEF453,Reid Winston,New Zealand,DEF454,Cresswell Aaron,England,DEF455,Oxford Reece,England,DEF456,Ogbonna Angelo,Italy,DEF457,Byram Sam,England,DEF458,Noble Mark,England,MID459,Kouyate Cheikhou,Senegal,MID460,Obiang Pedro,Spain,MID461,Payet Dimitri,France,MID462,Lanzini Manuel,Argentina,MID463,Cullen Josh,Ireland,MID464,Antonio Michail,England,MID465,Nordtveit Havard,Norway,MID466,Feghouli Sofiane,Algeria,MID467,Tore Gokhan,Turkey,MID468,Carroll Andy,England,FWD469,Valencia Enner,Ecuador,FWD470,Sakho Diafra,Senegal,FWD471,Pope Nick,England,GKP472,Robinson Paul,England,GKP473,Gudmundsson Johann Berg,Iceland,MID474,Klavan Ragnar,Estonia,DEF475,Grujic Marko,Serbia,MID476,Denayer Jason,Belgium,DEF477,Barragan Antonio,Spain,DEF478,Negredo Alvaro,Spain,FWD479,Zuniga Juan,Colombia,DEF480,Hoban Tommie,Ireland,DEF481,Dja Djedje Brice,Cote D'Ivoire,DEF482,Doucoure Abdoulaye,France,MID483,Vydra Matej,Czech Republic,FWD484,Holding Rob,England,DEF485,Wijnaldum Georginio,Netherlands,MID486,Sobhi Ramadan,Egypt,MID487,Aina Ola,England,DEF488,Gueye Idrissa,Senegal,MID489,Sane Leroy,Germany,MID490,Guzan Bradley,United States,GKP491,Ramirez Gaston,Uruguay,MID492,Pied Jeremy,France,DEF493,Akpom Chuba,England,FWD494,Kaikai Sullay,England,MID495,Holgate Mason,England,DEF496,Chilwell Benjamin,England,DEF497,Kapustka Bartosz,Poland,MID498,Angelino,Spain,DEF499,Djilobodji Papy,Senegal,DEF500,Llorente Fernando,Spain,FWD501,Carter-Vickers Cameron,United States,DEF502,Lafferty Daniel,Northern Ireland,DEF503,Pogba Paul,France,MID504,Stephens Jack,England,DEF505,Masuaku Arthur,France,DEF506,Love Donald,Scotland,DEF507,Baston Borja,Spain,FWD508,Ladapo Olayinka Fredrick Oladotun,England,FWD509,Anderson Keshi,England,FWD510,Wilson Kane,England,DEF511,Field Sam,England,MID512,Davies Tom,England,MID513,Winks Harry,England,MID514,Olley Greg,England,MID515,Clackstone Josh,England,DEF516,Bowen Jarrod,England,FWD517,Kuciak Dusan,Slovakia,GKP518,Luer Greg,England,FWD519,Tymon Josh,England,DEF520,Gooch Lynden,United States,MID521,Asoro Joel,Sweden,MID522,Baptiste Alex,England,DEF523,Alexander-Arnold Trent,England,MID524,Manninger Alexander,Austria,GKP525,Defour Steven,Belgium,MID526,Calleri Jonathan,Argentina,FWD527,da Silva Fabio Pereira,Brazil,DEF528,Maffeo Pablo,Spain,DEF529,McGee Luke,England,GKP530,Chalobah Nathaniel,England,MID531,O'Neill Aiden,Australia,MID532,Robson Josh,England,DEF533,Pienaar Steven,South Africa,MID534,Burke Reece,England,DEF535,Fletcher Steven,Scotland,FWD536,Fraser Ryan,Scotland,MID537,Robson Thomas,England,DEF538,Manquillo Javier,Spain,DEF539,Pereyra Roberto,Argentina,MID540,Janmaat Daryl,Netherlands,DEF541,Bravo Claudio,Chile,GKP542,Fernandes Edimilson,Switzerland,MID543,Boateng Hiram,England,MID544,Ngoy Julien,Belgium,FWD545,Hinchcliffe Ben,England,FWD546,McBurnie Oliver,England,FWD547,Stryjek Maksymilian,Poland,GKP548,Rose Jack,England,GKP549,Perez Lucas,Spain,FWD550,Zaza Simone,Italy,FWD551,Boufal Sofiane,Morocco,MID552,Okaka Stefano,Italy,FWD553,Bamford Patrick,England,FWD554,Marshall David,Scotland,GKP555,Mustafi Shkodran,Germany,DEF556,Mariappa Adrian,Jamaica,DEF557,Keane Will,England,FWD558,Mawson Alfie,England,DEF559,Ndong Didier,Gabon,MID560,Hendrick Jeff,Ireland,MID561,Alonso Marcos,Spain,DEF562,Martins Indi Bruno,Portugal,DEF563,Traore Adama,Spain,MID564,Lopez Sabata Pau,Spain,GKP565,Nkoudou Georges-Kevin,France,MID566,Weir James,England,MID567,Slimani Islam,Algeria,FWD568,Arbeloa Alvaro,Spain,DEF569,Mbokani Dieumerci,Congo,FWD570,Luiz David,Brazil,DEF571,Robson-Kanu Hal,Wales,FWD572,Sissoko Moussa,France,MID573,Henriksen Markus,Norway,MID574,Grant Lee,England,GKP575,Anichebe Victor,Nigeria,FWD576,Flamini Mathieu,France,MID577,Mika,Portugal,GKP578,Garcia Serrano Aleix,Spain,MID579,Benteke Jonathan,Belgium,FWD580,Fryers Ezekiel,England,DEF581,Dreher Luke,England,MID582,Ejaria Oviemuno,England,MID583,Hamer Ben,England,GKP584,Isgrove Lloyd,Wales,MID585,Wynter Ben,England,DEF586,Hesketh Jake,England,MID587,Honeyman George,England,MID588,Reine-Adelaide Jeff,France,MID589,Olomola Olufela,Nigeria,MID590,Solanke Dominic,England,FWD591,Spiegel Raphael,Switzerland,GKP592,McQueen Sam,England,MID593,Maitland-Niles Ainsley,England,MID594,Long Kevin,Ireland,DEF595,Calvert-Lewin Dominic,England,FWD596,Hewelt Mateusz,Poland,GKP597,Taylor Stuart,England,GKP598,James Daniel,England,MID599,Verlinden Thibaud,Belgium,MID600,Allsop Ryan,England,GKP601,Palmer Alex,England,GKP602,James Matthew,England,MID603,Woodburn Ben,Wales,MID604,Sims Joshua,England,MID605,Eleftheriou Andrew,England,DEF
+pid,name,nationality,position
+1,Ospina David,Colombia,GKP
+2,Cech Petr,Czech Republic,GKP
+3,Koscielny Laurent,France,DEF
+4,Mertesacker Per,Germany,DEF
+5,de Abreu Gabriel Armando,Brazil,DEF
+6,Bellerin Hector,Spain,DEF
+7,Gibbs Kieran,England,DEF
+8,Debuchy Mathieu,France,DEF
+9,Jenkinson Carl,England,DEF
+10,Monreal Nacho,Spain,DEF
+11,Chambers Calum,England,DEF
+12,Sanchez Alexis,Chile,MID
+13,Walcott Theo,England,MID
+14,Ozil Mesut,Germany,MID
+15,Cazorla Santiago,Spain,MID
+16,Ramsey Aaron,Wales,MID
+17,Wilshere Jack,England,MID
+18,Oxlade-Chamberlain Alex,England,MID
+19,Gnabry Serge,Germany,MID
+20,Coquelin Francis,France,MID
+21,Iwobi Alex,Nigeria,MID
+22,Elneny Mohamed,Egypt,MID
+23,Campbell Joel,Costa Rica,MID
+24,Xhaka Granit,Switzerland,MID
+25,Giroud Olivier,France,FWD
+26,Welbeck Danny,England,FWD
+27,Sanogo Yaya,France,FWD
+28,Asano Takuma,Japan,FWD
+29,Boruc Artur,Poland,GKP
+30,Federici Adam,Australia,GKP
+31,Francis Simon,England,DEF
+32,Cook Steve,England,DEF
+33,Daniels Charlie,England,DEF
+34,Smith Adam,England,DEF
+35,Mings Tyrone,England,DEF
+36,Ake Nathan,Netherlands,DEF
+37,Arter Harry,Ireland,MID
+38,Pugh Marc,England,MID
+39,Surman Andrew,England,MID
+40,O'Kane Eunan,Ireland,MID
+41,MacDonald Shaun,Wales,MID
+42,Stanislas Junior,England,MID
+43,Gosling Dan,England,MID
+44,Gradel Max,Cote D'Ivoire,MID
+45,Hyndman Emerson,United States,MID
+46,Ibe Jordon,England,MID
+47,Cook Lewis,England,MID
+48,King Joshua,Norway,MID
+49,Wilson Callum,England,FWD
+50,Rantie Tokelo,South Africa,FWD
+51,Grabban Lewis,England,FWD
+52,Afobe Benik,Congo,FWD
+53,Mousset Lys,France,FWD
+54,Heaton Tom,England,GKP
+55,Lowton Matthew,England,DEF
+56,Mee Ben,England,DEF
+57,Ward Stephen,Ireland,DEF
+58,Keane Michael,England,DEF
+59,Tarkowski James,England,DEF
+60,Darikwa Tendayi,Japan,DEF
+61,Jones David,England,MID
+62,Boyd George,Scotland,MID
+63,Arfield Scott,Canada,MID
+64,Marney Dean,England,MID
+65,Ulvestad Fredrik,Norway,MID
+66,Kightly Michael,England,MID
+67,Vokes Sam,Wales,FWD
+68,Gray Andre,England,FWD
+69,Jutkiewicz Lukas,England,FWD
+70,Barnes Ashley,Austria,FWD
+71,Hennings Rouwen,Germany,FWD
+72,Long Chris,England,FWD
+73,Courtois Thibaut,Belgium,GKP
+74,Begovic Asmir,Bosnia And Herzegovina,GKP
+75,Terry John,England,DEF
+76,Ivanovic Branislav,Serbia,DEF
+77,Azpilicueta Cesar,Spain,DEF
+78,Cahill Gary,England,DEF
+79,Zouma Kurt,France,DEF
+80,Baba Abdul Rahman,Ghana,DEF
+81,Miazga Matt,United States,DEF
+82,Hazard Eden,Belgium,MID
+83,Fabregas Cesc,Spain,MID
+84,dos Santos Emboaba Junior Oscar,Brazil,MID
+85,Cuadrado Juan,Colombia,MID
+86,Borges Da Silva Willian,Brazil,MID
+87,Matic Nemanja,Serbia,MID
+88,Loftus-Cheek Ruben,England,MID
+89,Mikel John Obi,Nigeria,MID
+90,Pedro,Spain,MID
+91,Traore Bertrand,Burkina Faso,MID
+92,Moses Victor,Nigeria,MID
+93,Van Ginkel Marco,Netherlands,MID
+94,Kenedy,Brazil,MID
+95,Kante N'Golo,France,MID
+96,Batshuayi Michy,Belgium,FWD
+97,Da Silva Costa Diego,Spain,FWD
+98,Remy Loic,France,FWD
+99,Speroni Julian,Argentina,GKP
+100,Hennessey Wayne,Wales,GKP
+101,McCarthy Alex,England,GKP
+102,Mandanda Steve,France,GKP
+103,Tomkins James,England,DEF
+104,Dann Scott,England,DEF
+105,Ward Joel,England,DEF
+106,Kelly Martin,England,DEF
+107,Delaney Damien,Ireland,DEF
+108,Souare Pape,Senegal,DEF
+109,Bolasie Yannick,Congo,MID
+110,Puncheon Jason,England,MID
+111,Zaha Wilfried,England,MID
+112,Jedinak Mile,Australia,MID
+113,Ledley Joe,Wales,MID
+114,McArthur James,Scotland,MID
+115,Mutch Jordon,England,MID
+116,Williams Jonathan,Wales,MID
+117,Lee Chung-yong,South Korea,MID
+118,Cabaye Yohan,France,MID
+119,Sako Bakary,Mali,MID
+120,Townsend Andros,England,MID
+121,Campbell Fraizer,England,FWD
+122,Wickham Connor,England,FWD
+123,Robles Joel,Spain,GKP
+124,Stekelenburg Maarten,Netherlands,GKP
+125,Baines Leighton,England,DEF
+126,Coleman Seamus,Ireland,DEF
+127,Jagielka Phil,England,DEF
+128,Stones John,England,DEF
+129,Galloway Brendan,England,DEF
+130,Browning Tyias,England,DEF
+131,Pennington Matthew,England,DEF
+132,Funes Mori Ramiro,Argentina,DEF
+133,Mirallas Kevin,Belgium,MID
+134,Barkley Ross,England,MID
+135,Cleverley Tom,England,MID
+136,McCarthy James,England,MID
+137,Barry Gareth,England,MID
+138,Gibson Darron,Ireland,MID
+139,Besic Muhamed,Bosnia And Herzegovina,MID
+140,Oviedo Bryan,Costa Rica,MID
+141,Deulofeu Gerard,Spain,MID
+142,Lennon Aaron,England,MID
+143,Lukaku Romelu,Belgium,FWD
+144,Kone Arouna,Cote D'Ivoire,FWD
+145,Niasse Oumar,Senegal,FWD
+146,McGregor Allan,Scotland,GKP
+147,Jakupovic Eldin,Switzerland,GKP
+148,Lenihan Brian,Ireland,DEF
+149,Davies Curtis,England,DEF
+150,Dawson Michael,England,DEF
+151,Odubajo Moses,England,DEF
+152,Robertson Andrew,Scotland,DEF
+153,Maguire Harry,England,DEF
+154,Bruce Alex,Northern Ireland,DEF
+155,Snodgrass Robert,Scotland,MID
+156,Clucas Sam,England,MID
+157,Livermore Jake,England,MID
+158,Elmohamady Ahmed,Egypt,MID
+159,Diame Mohamed,Senegal,MID
+160,Huddlestone Tom,England,MID
+161,Meyler David,Ireland,MID
+162,Maloney Shaun,Scotland,MID
+163,Hernandez Abel,Uruguay,FWD
+164,Diomande Adama,Norway,FWD
+165,Schmeichel Kasper,Denmark,GKP
+166,Zieler Ron-Robert,Germany,GKP
+167,Morgan Wes,Jamaica,DEF
+168,Fuchs Christian,Austria,DEF
+169,Schlupp Jeffrey,Ghana,DEF
+170,Wasilewski Marcin,Poland,DEF
+171,de Laet Ritchie,Belgium,DEF
+172,Simpson Danny,England,DEF
+173,Huth Robert,Germany,DEF
+174,Benalouane Yohan,Tunisia,DEF
+175,Hernandez Luis,Spain,DEF
+176,Mahrez Riyad,Algeria,MID
+177,Albrighton Marc,England,MID
+178,King Andy,England,MID
+179,Drinkwater Daniel,England,MID
+180,Inler Gokhan,Switzerland,MID
+181,Gray Demarai,England,MID
+182,Amartey Daniel,Ghana,MID
+183,Mendy Nampalys,France,MID
+184,Vardy Jamie,England,FWD
+185,Ulloa Leonardo,Argentina,FWD
+186,Okazaki Shinji,Japan,FWD
+187,Musa Ahmed,Nigeria,FWD
+188,Mignolet Simon,Belgium,GKP
+189,Karius Loris,Germany,GKP
+190,Sakho Mamadou,France,DEF
+191,Lovren Dejan,Croatia,DEF
+192,Moreno Alberto,Spain,DEF
+193,Clyne Nathaniel,England,DEF
+194,Flanagan Jon,England,DEF
+195,Gomez Joseph,England,DEF
+196,Randall Connor,England,DEF
+197,Smith Bradley,England,DEF
+198,Stewart Kevin,England,DEF
+199,Matip Joel,Cameroon,DEF
+200,Lucas Leiva,Brazil,MID
+201,Henderson Jordan,England,MID
+202,Allen Joe,Wales,MID
+203,Coutinho Philippe,Brazil,MID
+204,Can Emre,Germany,MID
+205,Lallana Adam,England,MID
+206,Markovic Lazar,Serbia,MID
+207,Ojo Oluwaseyi,,MID
+208,Milner James,England,MID
+209,Firmino Roberto,Brazil,MID
+210,Brannagan Cameron,England,MID
+211,Chirivella Pedro,Spain,MID
+212,Mane Sadio,Senegal,MID
+213,Benteke Christian,Belgium,FWD
+214,Sturridge Daniel,England,FWD
+215,Balotelli Mario,Italy,FWD
+216,Ings Danny,England,FWD
+217,Origi Divock,Belgium,FWD
+218,Hart Joe,England,GKP
+219,Caballero Willy,Argentina,GKP
+220,Kolarov Aleksandar,Serbia,DEF
+221,Zabaleta Pablo,Argentina,DEF
+222,Kompany Vincent,Belgium,DEF
+223,Clichy Gael,France,DEF
+224,Sagna Bacary,France,DEF
+225,Mangala Eliaquim,France,DEF
+226,Otamendi Nicolas,Argentina,DEF
+227,Delph Fabian,England,MID
+228,Sterling Raheem,England,MID
+229,Nasri Samir,France,MID
+230,Silva David,Spain,MID
+231,Toure Gnegneri Yaya,Cote D'Ivoire,MID
+232,Navas Jesus,Spain,MID
+233,Fernandinho,Brazil,MID
+234,Reges Fernando Francisco,Brazil,MID
+235,De Bruyne Kevin,Belgium,MID
+236,Gundogan Ilkay,Germany,MID
+237,Nolito,Spain,MID
+238,Zinchenko Oleksandr,Ukraine,MID
+239,Aguero Sergio,Argentina,FWD
+240,Bony Wilfried,Cote D'Ivoire,FWD
+241,Iheanacho Kelechi,Nigeria,FWD
+242,de Gea David,Spain,GKP
+243,Romero Sergio,Argentina,GKP
+244,Smalling Chris,England,DEF
+245,Jones Phil,Jones Phil,DEF
+246,Varela Guillermo,Uruguay,DEF
+247,Shaw Luke,England,DEF
+248,Rojo Marcos,Argentina,DEF
+249,McNair Patrick,Northern Ireland,DEF
+250,Valencia Antonio,Ecuador,DEF
+251,Darmian Matteo,Italy,DEF
+252,Borthwick-Jackson Cameron,England,DEF
+253,Fosu-Mensah Timothy,Netherlands,DEF
+254,Blind Daley,Netherlands,DEF
+255,Bailly Eric,Cote D'Ivoire,DEF
+256,Mata Juan,Spain,MID
+257,Fellaini Marouane,Belgium,MID
+258,Depay Memphis,Netherlands,MID
+259,Carrick Michael,England,MID
+260,Young Ashley,England,MID
+261,Januzaj Adnan,Belgium,MID
+262,Herrera Ander,Spain,MID
+263,Pereira Andreas,Brazil,MID
+264,Schneiderlin Morgan,France,MID
+265,Schweinsteiger Bastian,Germany,MID
+266,Lingard Jesse,England,MID
+267,Martial Anthony,France,MID
+268,Mkhitaryan Henrikh,Armenia,MID
+269,Rooney Wayne,England,FWD
+270,Wilson James,England,FWD
+271,Rashford Marcus,England,FWD
+272,Ibrahimovic Zlatan,Sweden,FWD
+273,Konstantopoulos Dimitrios,Greece,GKP
+274,Valdes Victor,Spain,GKP
+275,Ayala Daniel,Spain,DEF
+276,Friend George,England,DEF
+277,Fry Dael,England,DEF
+278,Gibson Ben,England,DEF
+279,Nsue Lopez Emilio,Equitorial Guinea,DEF
+280,Bernardo,Colombia,DEF
+281,Adomah Albert,Ghana,MID
+282,Downing Stewart,England,MID
+283,Clayton Adam,England,MID
+284,Leadbitter Grant,England,MID
+285,Reach Adam,England,MID
+286,Forshaw Adam,England,MID
+287,De Pena Carlos,Uruguay,MID
+288,de Sart Julien,Belgium,MID
+289,Fischer Viktor,Denmark,MID
+290,de Roon Marten,Netherlands,MID
+291,Nugent David,England,FWD
+292,Rhodes Jordan,England,FWD
+293,Stuani Cristhian,Uruguay,FWD
+294,Forster Fraser,England,GKP
+295,Gazzaniga Paulo,Argentina,GKP
+296,Bertrand Ryan,England,DEF
+297,Fonte Jose,Portugal,DEF
+298,Yoshida Maya,Japan,DEF
+299,Targett Matt,England,DEF
+300,Gardos Florin,Romania,DEF
+301,Soares Cedric,Portugal,DEF
+302,Martina Cuco,Netherlands,DEF
+303,van Dijk Virgil,Netherlands,DEF
+304,Redmond Nathan,England,MID
+305,Davis Steven,Northern Ireland,MID
+306,Ward-Prowse James,England,MID
+307,Reed Harrison,England,MID
+308,Tadic Dusan,Serbia,MID
+309,Clasie Jordy,Netherlands,MID
+310,Romeu Vidal Oriol,Span,MID
+311,Rodriguez Jay,Uruguay,MID
+312,Hojbjerg Pierre-Emile,Denmark,MID
+313,Long Shane,England,FWD
+314,Austin Charlie,England,FWD
+315,Given Shay,Ireland,GKP
+316,Butland Jack,England,GKP
+317,Haugaard Jakob,Denmark,GKP
+318,Shawcross Ryan,England,DEF
+319,Wilson Marc,Ireland,DEF
+320,Cameron Geoff,United States,DEF
+321,Pieters Erik,Netherlands,DEF
+322,Muniesa Marc,Spain,DEF
+323,Bardsley Phil,Scotland,DEF
+324,Wollscheid Philipp,Germany,DEF
+325,Johnson Glen,England,DEF
+326,Teixeira Dionatan,Brazil,DEF
+327,Ireland Stephen,Ireland,MID
+328,Adam Charlie,Scotland,MID
+329,Whelan Glenn,Ireland,MID
+330,Walters Jonathan,England,MID
+331,Arnautovic Marko,Austria,MID
+332,Afellay Ibrahim,Netherlands,MID
+333,Shaqiri Xherdan,Switzerland,MID
+334,Imbula Giannelli,France,MID
+335,Krkic Bojan,Spanish,MID
+336,Crouch Peter,England,FWD
+337,Diouf Mame Biram,Senegal,FWD
+338,Joselu,Spain,FWD
+339,Mannone Vito,Italy,GKP
+340,Pickford Jordan,England,GKP
+341,Kaboul Younes,France,DEF
+342,O'Shea John,Ireland,DEF
+343,Jones Billy,England,DEF
+344,van Aanholt Patrick,Netherlands,DEF
+345,Matthews Adam,Wales,DEF
+346,Kone Lamine,Cote D'Ivoire,DEF
+347,Kirchhoff Jan,Germany,MID
+348,Cattermole Lee,England,MID
+349,Larsson Sebastian,Sweden,MID
+350,Rodwell Jack,England,MID
+351,Lens Jeremain,Netherlands,MID
+352,Khazri Wahbi,Tunisia,MID
+353,Watmore Duncan,England,MID
+354,Borini Fabio,Italy,FWD
+355,Defoe Jermain,England,FWD
+356,Fabianski Lukasz,Poland,GKP
+357,Nordfeldt Kristoffer,Sweden,GKP
+358,Naughton Kyle,England,DEF
+359,Williams Ashley,England,DEF
+360,Taylor Neil,England,DEF
+361,Rangel Angel,Spain,DEF
+362,Amat Jordi,Spain,DEF
+363,Fernandez Federico,Argentina,DEF
+364,Tabanou Franck,France,DEF
+365,Kingsley Stephen,Scotland,DEF
+366,van der Hoorn Mike,Netherlands,DEF
+367,Cork Jack,England,MID
+368,Sigurdsson Gylfi,Iceland,MID
+369,Routledge Wayne,England,MID
+370,Britton Leon,England,MID
+371,Fulton Jay,Scotland,MID
+372,Ki Sung-yueng,South Korea,MID
+373,Montero Jefferson,Ecuador,MID
+374,Ayew Andre,Ghana,MID
+375,Fer Leroy,Netherlands,MID
+376,Dyer Nathan,England,MID
+377,Gomis Bafetimbi,France,FWD
+378,Emnes Marvin,Netherlands,FWD
+379,Barrow Modou,Gambia,FWD
+380,Lloris Hugo,France,GKP
+381,Vorm Michel,Netherlands,GKP
+382,Alderweireld Toby,Belgium,DEF
+383,Rose Danny,England,DEF
+384,Walker Kyle,England,DEF
+385,Vertonghen Jan,Belgium,DEF
+386,Davies Ben,England,DEF
+387,Trippier Kieran,England,DEF
+388,Wimmer Kevin,Austria,DEF
+389,Yedlin DeAndre,United States,DEF
+390,Dier Eric,England,MID
+391,Dembele Mousa,Belgium,MID
+392,Chadli Nacer,Belgium,MID
+393,Lamela Erik,Argentina,MID
+394,Eriksen Christian,Denmark,MID
+395,Bentaleb Nabil,Algeria,MID
+396,Mason Ryan,England,MID
+397,Carroll Tom,England,MID
+398,Alli Dele,England,MID
+399,Onomah Joshua,England,MID
+400,Wanyama Victor,Kenya,MID
+401,Pritchard Alex,England,MID
+402,Son Heung-Min,South Korea,MID
+403,Kane Harry,England,FWD
+404,N'Jie Clinton,Cameroon,FWD
+405,Janssen Vincent,Netherlands,FWD
+406,Pantilimon Costel,Romania,GKP
+407,Gomes Heurelho,Brazil,GKP
+408,Cathcart Craig,Northern Ireland,DEF
+409,Prodl Sebastian,Austria,DEF
+410,Paredes Juan Carlos,Ecuador,DEF
+411,Holebas Jose,Greece,DEF
+412,Nyom Allan-Romeo,Cameroon,DEF
+413,Britos Miguel,Uruguay,DEF
+414,Kabasele Christian,Belgium,DEF
+415,Guedioura Adlene,Algeria,MID
+416,Capoue Etienne,France,MID
+417,Abdi Almen,Switzerland,MID
+418,Watson Ben,England,MID
+419,Anya Ikechi,Scotland,MID
+420,Behrami Valon,Switzerland,MID
+421,Berghuis Steven,Netherlands,MID
+422,Amrabat Nordin,Morocco,MID
+423,Suarez Mario,Spain,MID
+424,Success Isaac,England,MID
+425,Deeney Troy,England,FWD
+426,Ighalo Odion,Nigeria,FWD
+427,Oulare Obbi,Belgium,FWD
+428,Sinclair Jerome,England,FWD
+429,Myhill Boaz,Wales,GKP
+430,Foster Ben,England,GKP
+431,Evans Jonny,Northern Ireland,DEF
+432,Olsson Jonas,Sweden,DEF
+433,Dawson Craig,England,DEF
+434,Pocognoli Sebastien,Belgium,DEF
+435,Gamboa Cristian,Costa Rica,DEF
+436,McAuley Gareth,Northern Ireland,DEF
+437,Chester James,Wales,DEF
+438,Brunt Chris,Northern Ireland,DEF
+439,Fletcher Darren,Scotland,MID
+440,Gardner Craig,England,MID
+441,Morrison James,Scotland,MID
+442,Yacob Claudio,Argentina,MID
+443,McManaman Callum,England,MID
+444,McClean James,Ireland,MID
+445,Leko Jonathan,England,MID
+446,Phillips Matt,Scotland,MID
+447,Lambert Rickie,England,FWD
+448,Berahino Saido,England,FWD
+449,Rondon Salomon,Venezuela,FWD
+450,San Miguel del Castillo Adrian,Spain,GKP
+451,Randolph Darren,Ireland,GKP
+452,Collins James,Wales,DEF
+453,Reid Winston,New Zealand,DEF
+454,Cresswell Aaron,England,DEF
+455,Oxford Reece,England,DEF
+456,Ogbonna Angelo,Italy,DEF
+457,Byram Sam,England,DEF
+458,Noble Mark,England,MID
+459,Kouyate Cheikhou,Senegal,MID
+460,Obiang Pedro,Spain,MID
+461,Payet Dimitri,France,MID
+462,Lanzini Manuel,Argentina,MID
+463,Cullen Josh,Ireland,MID
+464,Antonio Michail,England,MID
+465,Nordtveit Havard,Norway,MID
+466,Feghouli Sofiane,Algeria,MID
+467,Tore Gokhan,Turkey,MID
+468,Carroll Andy,England,FWD
+469,Valencia Enner,Ecuador,FWD
+470,Sakho Diafra,Senegal,FWD
+471,Pope Nick,England,GKP
+472,Robinson Paul,England,GKP
+473,Gudmundsson Johann Berg,Iceland,MID
+474,Klavan Ragnar,Estonia,DEF
+475,Grujic Marko,Serbia,MID
+476,Denayer Jason,Belgium,DEF
+477,Barragan Antonio,Spain,DEF
+478,Negredo Alvaro,Spain,FWD
+479,Zuniga Juan,Colombia,DEF
+480,Hoban Tommie,Ireland,DEF
+481,Dja Djedje Brice,Cote D'Ivoire,DEF
+482,Doucoure Abdoulaye,France,MID
+483,Vydra Matej,Czech Republic,FWD
+484,Holding Rob,England,DEF
+485,Wijnaldum Georginio,Netherlands,MID
+486,Sobhi Ramadan,Egypt,MID
+487,Aina Ola,England,DEF
+488,Gueye Idrissa,Senegal,MID
+489,Sane Leroy,Germany,MID
+490,Guzan Bradley,United States,GKP
+491,Ramirez Gaston,Uruguay,MID
+492,Pied Jeremy,France,DEF
+493,Akpom Chuba,England,FWD
+494,Kaikai Sullay,England,MID
+495,Holgate Mason,England,DEF
+496,Chilwell Benjamin,England,DEF
+497,Kapustka Bartosz,Poland,MID
+498,Angelino,Spain,DEF
+499,Djilobodji Papy,Senegal,DEF
+500,Llorente Fernando,Spain,FWD
+501,Carter-Vickers Cameron,United States,DEF
+502,Lafferty Daniel,Northern Ireland,DEF
+503,Pogba Paul,France,MID
+504,Stephens Jack,England,DEF
+505,Masuaku Arthur,France,DEF
+506,Love Donald,Scotland,DEF
+507,Baston Borja,Spain,FWD
+508,Ladapo Olayinka Fredrick Oladotun,England,FWD
+509,Anderson Keshi,England,FWD
+510,Wilson Kane,England,DEF
+511,Field Sam,England,MID
+512,Davies Tom,England,MID
+513,Winks Harry,England,MID
+514,Olley Greg,England,MID
+515,Clackstone Josh,England,DEF
+516,Bowen Jarrod,England,FWD
+517,Kuciak Dusan,Slovakia,GKP
+518,Luer Greg,England,FWD
+519,Tymon Josh,England,DEF
+520,Gooch Lynden,United States,MID
+521,Asoro Joel,Sweden,MID
+522,Baptiste Alex,England,DEF
+523,Alexander-Arnold Trent,England,MID
+524,Manninger Alexander,Austria,GKP
+525,Defour Steven,Belgium,MID
+526,Calleri Jonathan,Argentina,FWD
+527,da Silva Fabio Pereira,Brazil,DEF
+528,Maffeo Pablo,Spain,DEF
+529,McGee Luke,England,GKP
+530,Chalobah Nathaniel,England,MID
+531,O'Neill Aiden,Australia,MID
+532,Robson Josh,England,DEF
+533,Pienaar Steven,South Africa,MID
+534,Burke Reece,England,DEF
+535,Fletcher Steven,Scotland,FWD
+536,Fraser Ryan,Scotland,MID
+537,Robson Thomas,England,DEF
+538,Manquillo Javier,Spain,DEF
+539,Pereyra Roberto,Argentina,MID
+540,Janmaat Daryl,Netherlands,DEF
+541,Bravo Claudio,Chile,GKP
+542,Fernandes Edimilson,Switzerland,MID
+543,Boateng Hiram,England,MID
+544,Ngoy Julien,Belgium,FWD
+545,Hinchcliffe Ben,England,FWD
+546,McBurnie Oliver,England,FWD
+547,Stryjek Maksymilian,Poland,GKP
+548,Rose Jack,England,GKP
+549,Perez Lucas,Spain,FWD
+550,Zaza Simone,Italy,FWD
+551,Boufal Sofiane,Morocco,MID
+552,Okaka Stefano,Italy,FWD
+553,Bamford Patrick,England,FWD
+554,Marshall David,Scotland,GKP
+555,Mustafi Shkodran,Germany,DEF
+556,Mariappa Adrian,Jamaica,DEF
+557,Keane Will,England,FWD
+558,Mawson Alfie,England,DEF
+559,Ndong Didier,Gabon,MID
+560,Hendrick Jeff,Ireland,MID
+561,Alonso Marcos,Spain,DEF
+562,Martins Indi Bruno,Portugal,DEF
+563,Traore Adama,Spain,MID
+564,Lopez Sabata Pau,Spain,GKP
+565,Nkoudou Georges-Kevin,France,MID
+566,Weir James,England,MID
+567,Slimani Islam,Algeria,FWD
+568,Arbeloa Alvaro,Spain,DEF
+569,Mbokani Dieumerci,Congo,FWD
+570,Luiz David,Brazil,DEF
+571,Robson-Kanu Hal,Wales,FWD
+572,Sissoko Moussa,France,MID
+573,Henriksen Markus,Norway,MID
+574,Grant Lee,England,GKP
+575,Anichebe Victor,Nigeria,FWD
+576,Flamini Mathieu,France,MID
+577,Mika,Portugal,GKP
+578,Garcia Serrano Aleix,Spain,MID
+579,Benteke Jonathan,Belgium,FWD
+580,Fryers Ezekiel,England,DEF
+581,Dreher Luke,England,MID
+582,Ejaria Oviemuno,England,MID
+583,Hamer Ben,England,GKP
+584,Isgrove Lloyd,Wales,MID
+585,Wynter Ben,England,DEF
+586,Hesketh Jake,England,MID
+587,Honeyman George,England,MID
+588,Reine-Adelaide Jeff,France,MID
+589,Olomola Olufela,Nigeria,MID
+590,Solanke Dominic,England,FWD
+591,Spiegel Raphael,Switzerland,GKP
+592,McQueen Sam,England,MID
+593,Maitland-Niles Ainsley,England,MID
+594,Long Kevin,Ireland,DEF
+595,Calvert-Lewin Dominic,England,FWD
+596,Hewelt Mateusz,Poland,GKP
+597,Taylor Stuart,England,GKP
+598,James Daniel,England,MID
+599,Verlinden Thibaud,Belgium,MID
+600,Allsop Ryan,England,GKP
+601,Palmer Alex,England,GKP
+602,James Matthew,England,MID
+603,Woodburn Ben,Wales,MID
+604,Sims Joshua,England,MID
+605,Eleftheriou Andrew,England,DEF
