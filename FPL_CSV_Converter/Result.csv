@@ -1,381 +1,381 @@
 id,gameweek,home_score,away_score,home_team,away_team,home_mgr,away_mgr
-1,1,0.0,1.0,Burnley,Swansea City,Sean Dyche,Bob Bradley
-2,1,0.0,1.0,Crystal Palace,West Bromwich Albion,Alan Pardew,Tony Pullis
-3,1,1.0,1.0,Everton,Tottenham Hotspur,Ronald Koeman,Mauricio Pochettino
-4,1,2.0,1.0,Hull City,Leicester City,Mike Phelan,Claudio Ranieri
-5,1,2.0,1.0,Manchester City,Sunderland,Pep Guardiola,David Moyes
-6,1,1.0,1.0,Middlesborough,Stoke City,Aitor Karanka,Mark Hughes
-7,1,1.0,1.0,Southampton,Watford,Claude Puel,Walter Mazzarri
-8,1,3.0,4.0,Arsenal,Liverpool,Arsene Wenger,Jurgen Klopp
-9,1,1.0,3.0,Bournemouth,Manchester United,Eddie Howe,Jose Mourinho
-10,1,2.0,1.0,Chelsea,West Ham United,Antonio Conte,Slaven Bilic
-11,2,2.0,0.0,Manchester United,Southampton,Jose Mourinho,Claude Puel
-12,2,2.0,0.0,Burnley,Liverpool,Sean Dyche,Jurgen Klopp
-13,2,0.0,0.0,Leicester City,Arsenal,Claudio Ranieri,Arsene Wenger
-14,2,1.0,4.0,Stoke City,Manchester City,Mark Hughes,Pep Guardiola
-15,2,0.0,2.0,Swansea City,Hull City,Bob Bradley,Mike Phelan
-16,2,1.0,0.0,Tottenham Hotspur,Crystal Palace,Mauricio Pochettino,Alan Pardew
-17,2,1.0,2.0,Watford,Chelsea,Walter Mazzarri,Antonio Conte
-18,2,1.0,2.0,West Bromwich Albion,Everton,Tony Pullis,Ronald Koeman
-19,2,1.0,2.0,Sunderland,Middlesborough,David Moyes,Aitor Karanka
-20,2,1.0,0.0,West Ham United,Bournemouth,Slaven Bilic,Eddie Howe
-21,3,3.0,0.0,Chelsea,Burnley,Antonio Conte,Sean Dyche
-22,3,1.0,1.0,Crystal Palace,Bournemouth,Alan Pardew,Eddie Howe
-23,3,1.0,0.0,Everton,Stoke City,Ronald Koeman,Mark Hughes
-24,3,0.0,1.0,Hull City,Manchester United,Mike Phelan,Jose Mourinho
-25,3,2.0,1.0,Leicester City,Swansea City,Claudio Ranieri,Bob Bradley
-26,3,1.0,1.0,Southampton,Sunderland,Claude Puel,David Moyes
-27,3,1.0,1.0,Tottenham Hotspur,Liverpool,Mauricio Pochettino,Jurgen Klopp
-28,3,1.0,3.0,Watford,Arsenal,Walter Mazzarri,Arsene Wenger
-29,3,3.0,1.0,Manchester City,West Ham United,Pep Guardiola,Slaven Bilic
-30,3,0.0,0.0,West Bromwich Albion,Middlesborough,Tony Pullis,Aitor Karanka
-31,4,2.0,1.0,Arsenal,Southampton,Arsene Wenger,Claude Puel
-32,4,1.0,0.0,Bournemouth,West Bromwich Albion,Eddie Howe,Tony Pullis
-33,4,1.0,1.0,Burnley,Hull City,Sean Dyche,Mike Phelan
-34,4,4.0,1.0,Liverpool,Leicester City,Jurgen Klopp,Claudio Ranieri
-35,4,1.0,2.0,Manchester United,Manchester City,Jose Mourinho,Pep Guardiola
-36,4,1.0,2.0,Middlesborough,Crystal Palace,Aitor Karanka,Alan Pardew
-37,4,0.0,4.0,Stoke City,Tottenham Hotspur,Mark Hughes,Mauricio Pochettino
-38,4,2.0,4.0,West Ham United,Watford,Slaven Bilic,Walter Mazzarri
-39,4,2.0,2.0,Swansea City,Chelsea,Bob Bradley,Antonio Conte
-40,4,0.0,3.0,Sunderland,Everton,David Moyes,Ronald Koeman
-41,5,1.0,2.0,Chelsea,Liverpool,Antonio Conte,Jurgen Klopp
-42,5,3.0,1.0,Everton,Middlesborough,Ronald Koeman,Aitor Karanka
-43,5,1.0,4.0,Hull City,Arsenal,Mike Phelan,Arsene Wenger
-44,5,3.0,0.0,Leicester City,Burnley,Claudio Ranieri,Sean Dyche
-45,5,4.0,0.0,Manchester City,Bournemouth,Pep Guardiola,Eddie Howe
-46,5,4.0,2.0,West Bromwich Albion,West Ham United,Tony Pullis,Slaven Bilic
-47,5,4.0,1.0,Crystal Palace,Stoke City,Alan Pardew,Mark Hughes
-48,5,1.0,0.0,Southampton,Swansea City,Claude Puel,Bob Bradley
-49,5,1.0,0.0,Tottenham Hotspur,Sunderland,Mauricio Pochettino,David Moyes
-50,5,3.0,1.0,Watford,Manchester United,Walter Mazzarri,Jose Mourinho
-51,6,3.0,0.0,Arsenal,Chelsea,Arsene Wenger,Antonio Conte
-52,6,1.0,0.0,Bournemouth,Everton,Eddie Howe,Ronald Koeman
-53,6,5.0,1.0,Liverpool,Hull City,Jurgen Klopp,Mike Phelan
-54,6,4.0,1.0,Manchester United,Leicester City,Jose Mourinho,Claudio Ranieri
-55,6,1.0,2.0,Middlesborough,Tottenham Hotspur,Aitor Karanka,Mauricio Pochettino
-56,6,1.0,1.0,Stoke City,West Bromwich Albion,Mark Hughes,Tony Pullis
-57,6,2.0,3.0,Sunderland,Crystal Palace,David Moyes,Alan Pardew
-58,6,1.0,3.0,Swansea City,Manchester City,Bob Bradley,Pep Guardiola
-59,6,0.0,3.0,West Ham United,Southampton,Slaven Bilic,Claude Puel
-60,6,2.0,0.0,Burnley,Watford,Sean Dyche,Walter Mazzarri
-61,7,0.0,1.0,Burnley,Arsenal,Sean Dyche,Arsene Wenger
-62,7,1.0,1.0,Everton,Crystal Palace,Ronald Koeman,Alan Pardew
-63,7,0.0,2.0,Hull City,Chelsea,Mike Phelan,Antonio Conte
-64,7,0.0,0.0,Leicester City,Southampton,Claudio Ranieri,Claude Puel
-65,7,1.0,1.0,Manchester United,Stoke City,Jose Mourinho,Mark Hughes
-66,7,1.0,1.0,Sunderland,West Bromwich Albion,David Moyes,Tony Pullis
-67,7,1.0,2.0,Swansea City,Liverpool,Bob Bradley,Jurgen Klopp
-68,7,2.0,0.0,Tottenham Hotspur,Manchester City,Mauricio Pochettino,Pep Guardiola
-69,7,2.0,2.0,Watford,Bournemouth,Walter Mazzarri,Eddie Howe
-70,7,1.0,1.0,West Ham United,Middlesborough,Slaven Bilic,Aitor Karanka
-71,8,3.0,2.0,Arsenal,Swansea City,Arsene Wenger,Bob Bradley
-72,8,6.0,1.0,Bournemouth,Hull City,Eddie Howe,Mike Phelan
-73,8,3.0,0.0,Chelsea,Leicester City,Antonio Conte,Claudio Ranieri
-74,8,0.0,1.0,Crystal Palace,West Ham United,Alan Pardew,Slaven Bilic
-75,8,0.0,0.0,Liverpool,Manchester United,Jurgen Klopp,Jose Mourinho
-76,8,1.0,1.0,Manchester City,Everton,Pep Guardiola,Ronald Koeman
-77,8,0.0,1.0,Middlesborough,Watford,Aitor Karanka,Walter Mazzarri
-78,8,3.0,1.0,Southampton,Burnley,Claude Puel,Sean Dyche
-79,8,2.0,0.0,Stoke City,Sunderland,Mark Hughes,David Moyes
-80,8,1.0,1.0,West Bromwich Albion,Tottenham Hotspur,Tony Pullis,Mauricio Pochettino
-81,9,0.0,0.0,Arsenal,Middlesborough,Arsene Wenger,Aitor Karanka
-82,9,0.0,0.0,Bournemouth,Tottenham Hotspur,Eddie Howe,Mauricio Pochettino
-83,9,2.0,1.0,Burnley,Everton,Sean Dyche,Ronald Koeman
-84,9,4.0,0.0,Chelsea,Manchester United,Antonio Conte,Jose Mourinho
-85,9,0.0,2.0,Hull City,Stoke City,Mike Phelan,Mark Hughes
-86,9,3.0,1.0,Leicester City,Crystal Palace,Claudio Ranieri,Alan Pardew
-87,9,2.0,1.0,Liverpool,West Bromwich Albion,Jurgen Klopp,Tony Pullis
-88,9,1.0,1.0,Manchester City,Southampton,Pep Guardiola,Claude Puel
-89,9,0.0,0.0,Swansea City,Watford,Bob Bradley,Walter Mazzarri
-90,9,1.0,0.0,West Ham United,Sunderland,Slaven Bilic,David Moyes
-91,10,2.0,4.0,Crystal Palace,Liverpool,Alan Pardew,Jurgen Klopp
-92,10,2.0,0.0,Everton,West Ham United,Ronald Koeman,Slaven Bilic
-93,10,0.0,0.0,Manchester United,Burnley,Jose Mourinho,Sean Dyche
-94,10,2.0,0.0,Middlesborough,Bournemouth,Aitor Karanka,Eddie Howe
-95,10,0.0,2.0,Southampton,Chelsea,Claude Puel,Antonio Conte
-96,10,3.0,1.0,Stoke City,Swansea City,Mark Hughes,Bob Bradley
-97,10,1.0,4.0,Sunderland,Arsenal,David Moyes,Arsene Wenger
-98,10,1.0,1.0,Tottenham Hotspur,Leicester City,Mauricio Pochettino,Claudio Ranieri
-99,10,1.0,0.0,Watford,Hull City,Walter Mazzarri,Mike Phelan
-100,10,0.0,4.0,West Bromwich Albion,Manchester City,Tony Pullis,Pep Guardiola
-101,11,1.0,1.0,Arsenal,Tottenham Hotspur,Arsene Wenger,Mauricio Pochettino
-102,11,1.0,2.0,Bournemouth,Sunderland,Eddie Howe,David Moyes
-103,11,3.0,2.0,Burnley,Crystal Palace,Sean Dyche,Alan Pardew
-104,11,5.0,0.0,Chelsea,Everton,Antonio Conte,Ronald Koeman
-105,11,2.0,1.0,Hull City,Southampton,Mike Phelan,Claude Puel
-106,11,1.0,2.0,Leicester City,West Bromwich Albion,Claudio Ranieri,Tony Pullis
-107,11,6.0,1.0,Liverpool,Watford,Jurgen Klopp,Walter Mazzarri
-108,11,1.0,1.0,Manchester City,Middlesborough,Pep Guardiola,Aitor Karanka
-109,11,1.0,3.0,Swansea City,Manchester United,Bob Bradley,Jose Mourinho
-110,11,1.0,1.0,West Ham United,Stoke City,Slaven Bilic,Mark Hughes
-111,12,1.0,2.0,Crystal Palace,Manchester City,Alan Pardew,Pep Guardiola
-112,12,1.0,1.0,Everton,Swansea City,Ronald Koeman,Bob Bradley
-113,12,1.0,1.0,Manchester United,Arsenal,Jose Mourinho,Arsene Wenger
-114,12,0.0,1.0,Middlesborough,Chelsea,Aitor Karanka,Antonio Conte
-115,12,0.0,0.0,Southampton,Liverpool,Claude Puel,Jurgen Klopp
-116,12,0.0,1.0,Stoke City,Bournemouth,Mark Hughes,Eddie Howe
-117,12,3.0,0.0,Sunderland,Hull City,David Moyes,Mike Phelan
-118,12,3.0,2.0,Tottenham Hotspur,West Ham United,Mauricio Pochettino,Slaven Bilic
-119,12,2.0,1.0,Watford,Leicester City,Walter Mazzarri,Claudio Ranieri
-120,12,4.0,0.0,West Bromwich Albion,Burnley,Tony Pullis,Sean Dyche
-121,13,3.0,1.0,Arsenal,Bournemouth,Arsene Wenger,Eddie Howe
-122,13,1.0,2.0,Burnley,Manchester City,Sean Dyche,Pep Guardiola
-123,13,2.0,1.0,Chelsea,Tottenham Hotspur,Antonio Conte,Mauricio Pochettino
-124,13,1.0,1.0,Hull City,West Bromwich Albion,Mike Phelan,Tony Pullis
-125,13,2.0,2.0,Leicester City,Middlesborough,Claudio Ranieri,Aitor Karanka
-126,13,2.0,0.0,Liverpool,Sunderland,Jurgen Klopp,David Moyes
-127,13,1.0,1.0,Manchester United,West Ham United,Jose Mourinho,Slaven Bilic
-128,13,1.0,0.0,Southampton,Everton,Claude Puel,Ronald Koeman
-129,13,5.0,4.0,Swansea City,Crystal Palace,Bob Bradley,Alan Pardew
-130,13,0.0,1.0,Watford,Stoke City,Walter Mazzarri,Mark Hughes
-131,14,4.0,3.0,Bournemouth,Liverpool,Eddie Howe,Jurgen Klopp
-132,14,3.0,0.0,Crystal Palace,Southampton,Alan Pardew,Claude Puel
-133,14,1.0,1.0,Everton,Manchester United,Ronald Koeman,Jose Mourinho
-134,14,1.0,3.0,Manchester City,Chelsea,Pep Guardiola,Antonio Conte
-135,14,1.0,0.0,Middlesborough,Hull City,Aitor Karanka,Mike Phelan
-136,14,2.0,0.0,Stoke City,Burnley,Mark Hughes,Sean Dyche
-137,14,2.0,1.0,Sunderland,Leicester City,David Moyes,Claudio Ranieri
-138,14,5.0,0.0,Tottenham Hotspur,Swansea City,Mauricio Pochettino,Bob Bradley
-139,14,3.0,1.0,West Bromwich Albion,Watford,Tony Pullis,Walter Mazzarri
-140,14,1.0,5.0,West Ham United,Arsenal,Slaven Bilic,Arsene Wenger
-141,15,,,Arsenal,Stoke City,Arsene Wenger,Mark Hughes
-142,15,,,Burnley,Bournemouth,Sean Dyche,Eddie Howe
-143,15,,,Chelsea,West Bromwich Albion,Antonio Conte,Tony Pullis
-144,15,,,Hull City,Crystal Palace,Mike Phelan,Alan Pardew
-145,15,,,Leicester City,Manchester City,Claudio Ranieri,Pep Guardiola
-146,15,,,Liverpool,West Ham United,Jurgen Klopp,Slaven Bilic
-147,15,,,Swansea City,Sunderland,Bob Bradley,David Moyes
-148,15,,,Watford,Everton,Walter Mazzarri,Ronald Koeman
-149,15,,,Manchester United,Tottenham Hotspur,Jose Mourinho,Mauricio Pochettino
-150,15,,,Southampton,Middlesborough,Claude Puel,Aitor Karanka
-151,16,,,Bournemouth,Leicester City,Eddie Howe,Claudio Ranieri
-152,16,,,Sunderland,Chelsea,David Moyes,Antonio Conte
-153,16,,,West Bromwich Albion,Swansea City,Tony Pullis,Bob Bradley
-154,16,,,West Ham United,Burnley,Slaven Bilic,Sean Dyche
-155,16,,,Crystal Palace,Manchester United,Alan Pardew,Jose Mourinho
-156,16,,,Everton,Arsenal,Ronald Koeman,Arsene Wenger
-157,16,,,Manchester City,Watford,Pep Guardiola,Walter Mazzarri
-158,16,,,Middlesborough,Liverpool,Aitor Karanka,Jurgen Klopp
-159,16,,,Stoke City,Southampton,Mark Hughes,Claude Puel
-160,16,,,Tottenham Hotspur,Hull City,Mauricio Pochettino,Mike Phelan
-161,17,,,Bournemouth,Southampton,Eddie Howe,Claude Puel
-162,17,,,Crystal Palace,Chelsea,Alan Pardew,Antonio Conte
-163,17,,,Everton,Liverpool,Ronald Koeman,Jurgen Klopp
-164,17,,,Manchester City,Arsenal,Pep Guardiola,Arsene Wenger
-165,17,,,Middlesborough,Swansea City,Aitor Karanka,Bob Bradley
-166,17,,,Stoke City,Leicester City,Mark Hughes,Claudio Ranieri
-167,17,,,Sunderland,Watford,David Moyes,Walter Mazzarri
-168,17,,,Tottenham Hotspur,Burnley,Mauricio Pochettino,Sean Dyche
-169,17,,,West Bromwich Albion,Manchester United,Tony Pullis,Jose Mourinho
-170,17,,,West Ham United,Hull City,Slaven Bilic,Mike Phelan
-171,18,,,Arsenal,West Bromwich Albion,Arsene Wenger,Tony Pullis
-172,18,,,Burnley,Middlesborough,Sean Dyche,Aitor Karanka
-173,18,,,Chelsea,Bournemouth,Antonio Conte,Eddie Howe
-174,18,,,Hull City,Manchester City,Mike Phelan,Pep Guardiola
-175,18,,,Leicester City,Everton,Claudio Ranieri,Ronald Koeman
-176,18,,,Liverpool,Stoke City,Jurgen Klopp,Mark Hughes
-177,18,,,Manchester United,Sunderland,Jose Mourinho,David Moyes
-178,18,,,Southampton,Tottenham Hotspur,Claude Puel,Mauricio Pochettino
-179,18,,,Swansea City,West Ham United,Bob Bradley,Slaven Bilic
-180,18,,,Watford,Crystal Palace,Walter Mazzarri,Alan Pardew
-181,19,,,Arsenal,Crystal Palace,Arsene Wenger,Alan Pardew
-182,19,,,Burnley,Sunderland,Sean Dyche,David Moyes
-183,19,,,Chelsea,Stoke City,Antonio Conte,Mark Hughes
-184,19,,,Hull City,Everton,Mike Phelan,Ronald Koeman
-185,19,,,Leicester City,West Ham United,Claudio Ranieri,Slaven Bilic
-186,19,,,Liverpool,Manchester City,Jurgen Klopp,Pep Guardiola
-187,19,,,Manchester United,Middlesborough,Jose Mourinho,Aitor Karanka
-188,19,,,Southampton,West Bromwich Albion,Claude Puel,Tony Pullis
-189,19,,,Swansea City,Bournemouth,Bob Bradley,Eddie Howe
-190,19,,,Watford,Tottenham Hotspur,Walter Mazzarri,Mauricio Pochettino
-191,20,,,Bournemouth,Arsenal,Eddie Howe,Arsene Wenger
-192,20,,,Crystal Palace,Swansea City,Alan Pardew,Bob Bradley
-193,20,,,Everton,Southampton,Ronald Koeman,Claude Puel
-194,20,,,Manchester City,Burnley,Pep Guardiola,Sean Dyche
-195,20,,,Middlesborough,Leicester City,Aitor Karanka,Claudio Ranieri
-196,20,,,Stoke City,Watford,Mark Hughes,Walter Mazzarri
-197,20,,,Sunderland,Liverpool,David Moyes,Jurgen Klopp
-198,20,,,Tottenham Hotspur,Chelsea,Mauricio Pochettino,Antonio Conte
-199,20,,,West Bromwich Albion,Hull City,Tony Pullis,Mike Phelan
-200,20,,,West Ham United,Manchester United,Slaven Bilic,Jose Mourinho
-201,21,,,Burnley,Southampton,Sean Dyche,Claude Puel
-202,21,,,Everton,Manchester City,Ronald Koeman,Pep Guardiola
-203,21,,,Hull City,Bournemouth,Mike Phelan,Eddie Howe
-204,21,,,Leicester City,Chelsea,Claudio Ranieri,Antonio Conte
-205,21,,,Manchester United,Liverpool,Jose Mourinho,Jurgen Klopp
-206,21,,,Sunderland,Stoke City,David Moyes,Mark Hughes
-207,21,,,Swansea City,Arsenal,Bob Bradley,Arsene Wenger
-208,21,,,Tottenham Hotspur,West Bromwich Albion,Mauricio Pochettino,Tony Pullis
-209,21,,,Watford,Middlesborough,Walter Mazzarri,Aitor Karanka
-210,21,,,West Ham United,Crystal Palace,Slaven Bilic,Alan Pardew
-211,22,,,Arsenal,Burnley,Arsene Wenger,Sean Dyche
-212,22,,,Bournemouth,Watford,Eddie Howe,Walter Mazzarri
-213,22,,,Chelsea,Hull City,Antonio Conte,Mike Phelan
-214,22,,,Crystal Palace,Everton,Alan Pardew,Ronald Koeman
-215,22,,,Liverpool,Swansea City,Jurgen Klopp,Bob Bradley
-216,22,,,Manchester City,Tottenham Hotspur,Pep Guardiola,Mauricio Pochettino
-217,22,,,Middlesborough,West Ham United,Aitor Karanka,Slaven Bilic
-218,22,,,Southampton,Leicester City,Claude Puel,Claudio Ranieri
-219,22,,,Stoke City,Manchester United,Mark Hughes,Jose Mourinho
-220,22,,,West Bromwich Albion,Sunderland,Tony Pullis,David Moyes
-221,23,,,Arsenal,Watford,Arsene Wenger,Walter Mazzarri
-222,23,,,Bournemouth,Crystal Palace,Eddie Howe,Alan Pardew
-223,23,,,Burnley,Leicester City,Sean Dyche,Claudio Ranieri
-224,23,,,Middlesborough,West Bromwich Albion,Aitor Karanka,Tony Pullis
-225,23,,,Sunderland,Tottenham Hotspur,David Moyes,Mauricio Pochettino
-226,23,,,Swansea City,Southampton,Bob Bradley,Claude Puel
-227,23,,,West Ham United,Manchester City,Slaven Bilic,Pep Guardiola
-228,23,,,Liverpool,Chelsea,Jurgen Klopp,Antonio Conte
-229,23,,,Manchester United,Hull City,Jose Mourinho,Mike Phelan
-230,23,,,Stoke City,Everton,Mark Hughes,Ronald Koeman
-231,24,,,Chelsea,Arsenal,Antonio Conte,Arsene Wenger
-232,24,,,Crystal Palace,Sunderland,Alan Pardew,David Moyes
-233,24,,,Everton,Bournemouth,Ronald Koeman,Eddie Howe
-234,24,,,Hull City,Liverpool,Mike Phelan,Jurgen Klopp
-235,24,,,Leicester City,Manchester United,Claudio Ranieri,Jose Mourinho
-236,24,,,Manchester City,Swansea City,Pep Guardiola,Bob Bradley
-237,24,,,Southampton,West Ham United,Claude Puel,Slaven Bilic
-238,24,,,Tottenham Hotspur,Middlesborough,Mauricio Pochettino,Aitor Karanka
-239,24,,,Watford,Burnley,Walter Mazzarri,Sean Dyche
-240,24,,,West Bromwich Albion,Stoke City,Tony Pullis,Mark Hughes
-241,25,,,Arsenal,Hull City,Arsene Wenger,Mike Phelan
-242,25,,,Bournemouth,Manchester City,Eddie Howe,Pep Guardiola
-243,25,,,Burnley,Chelsea,Sean Dyche,Antonio Conte
-244,25,,,Liverpool,Tottenham Hotspur,Jurgen Klopp,Mauricio Pochettino
-245,25,,,Manchester United,Watford,Jose Mourinho,Walter Mazzarri
-246,25,,,Middlesborough,Everton,Aitor Karanka,Ronald Koeman
-247,25,,,Stoke City,Crystal Palace,Mark Hughes,Alan Pardew
-248,25,,,Sunderland,Southampton,David Moyes,Claude Puel
-249,25,,,Swansea City,Leicester City,Bob Bradley,Claudio Ranieri
-250,25,,,West Ham United,West Bromwich Albion,Slaven Bilic,Tony Pullis
-251,26,,,Chelsea,Swansea City,Antonio Conte,Bob Bradley
-252,26,,,Crystal Palace,Middlesborough,Alan Pardew,Aitor Karanka
-253,26,,,Everton,Sunderland,Ronald Koeman,David Moyes
-254,26,,,Hull City,Burnley,Mike Phelan,Sean Dyche
-255,26,,,Leicester City,Liverpool,Claudio Ranieri,Jurgen Klopp
-256,26,,,Manchester City,Manchester United,Pep Guardiola,Jose Mourinho
-257,26,,,Southampton,Arsenal,Claude Puel,Arsene Wenger
-258,26,,,Tottenham Hotspur,Stoke City,Mauricio Pochettino,Mark Hughes
-259,26,,,Watford,West Ham United,Walter Mazzarri,Slaven Bilic
-260,26,,,West Bromwich Albion,Bournemouth,Tony Pullis,Eddie Howe
-261,27,,,Leicester City,Hull City,Claudio Ranieri,Mike Phelan
-262,27,,,Liverpool,Arsenal,Jurgen Klopp,Arsene Wenger
-263,27,,,Manchester United,Bournemouth,Jose Mourinho,Eddie Howe
-264,27,,,Stoke City,Middlesborough,Mark Hughes,Aitor Karanka
-265,27,,,Sunderland,Manchester City,David Moyes,Pep Guardiola
-266,27,,,Swansea City,Burnley,Bob Bradley,Sean Dyche
-267,27,,,Tottenham Hotspur,Everton,Mauricio Pochettino,Ronald Koeman
-268,27,,,Watford,Southampton,Walter Mazzarri,Claude Puel
-269,27,,,West Bromwich Albion,Crystal Palace,Tony Pullis,Alan Pardew
-270,27,,,West Ham United,Chelsea,Slaven Bilic,Antonio Conte
-271,28,,,Arsenal,Leicester City,Arsene Wenger,Claudio Ranieri
-272,28,,,Bournemouth,West Ham United,Eddie Howe,Slaven Bilic
-273,28,,,Chelsea,Watford,Antonio Conte,Walter Mazzarri
-274,28,,,Crystal Palace,Tottenham Hotspur,Alan Pardew,Mauricio Pochettino
-275,28,,,Everton,West Bromwich Albion,Ronald Koeman,Tony Pullis
-276,28,,,Hull City,Swansea City,Mike Phelan,Bob Bradley
-277,28,,,Manchester City,Stoke City,Pep Guardiola,Mark Hughes
-278,28,,,Middlesborough,Sunderland,Aitor Karanka,David Moyes
-279,28,,,Southampton,Manchester United,Claude Puel,Jose Mourinho
-280,28,,,Liverpool,Burnley,Jurgen Klopp,Sean Dyche
-281,29,,,Bournemouth,Swansea City,Eddie Howe,Bob Bradley
-282,29,,,Crystal Palace,Watford,Alan Pardew,Walter Mazzarri
-283,29,,,Everton,Hull City,Ronald Koeman,Mike Phelan
-284,29,,,Manchester City,Liverpool,Pep Guardiola,Jurgen Klopp
-285,29,,,Middlesborough,Manchester United,Aitor Karanka,Jose Mourinho
-286,29,,,Stoke City,Chelsea,Mark Hughes,Antonio Conte
-287,29,,,Sunderland,Burnley,David Moyes,Sean Dyche
-288,29,,,Tottenham Hotspur,Southampton,Mauricio Pochettino,Claude Puel
-289,29,,,West Bromwich Albion,Arsenal,Tony Pullis,Arsene Wenger
-290,29,,,West Ham United,Leicester City,Slaven Bilic,Claudio Ranieri
-291,30,,,Arsenal,Manchester City,Arsene Wenger,Pep Guardiola
-292,30,,,Burnley,Tottenham Hotspur,Sean Dyche,Mauricio Pochettino
-293,30,,,Chelsea,Crystal Palace,Antonio Conte,Alan Pardew
-294,30,,,Hull City,West Ham United,Mike Phelan,Slaven Bilic
-295,30,,,Leicester City,Stoke City,Claudio Ranieri,Mark Hughes
-296,30,,,Liverpool,Everton,Jurgen Klopp,Ronald Koeman
-297,30,,,Manchester United,West Bromwich Albion,Jose Mourinho,Tony Pullis
-298,30,,,Southampton,Bournemouth,Claude Puel,Eddie Howe
-299,30,,,Swansea City,Middlesborough,Bob Bradley,Aitor Karanka
-300,30,,,Watford,Sunderland,Walter Mazzarri,David Moyes
-301,31,,,Arsenal,West Ham United,Arsene Wenger,Slaven Bilic
-302,31,,,Burnley,Stoke City,Sean Dyche,Mark Hughes
-303,31,,,Hull City,Middlesborough,Mike Phelan,Aitor Karanka
-304,31,,,Leicester City,Sunderland,Claudio Ranieri,David Moyes
-305,31,,,Manchester United,Everton,Jose Mourinho,Ronald Koeman
-306,31,,,Swansea City,Tottenham Hotspur,Bob Bradley,Mauricio Pochettino
-307,31,,,Watford,West Bromwich Albion,Walter Mazzarri,Tony Pullis
-308,31,,,Chelsea,Manchester City,Antonio Conte,Pep Guardiola
-309,31,,,Liverpool,Bournemouth,Jurgen Klopp,Eddie Howe
-310,31,,,Southampton,Crystal Palace,Claude Puel,Alan Pardew
-311,32,,,Bournemouth,Chelsea,Eddie Howe,Antonio Conte
-312,32,,,Crystal Palace,Arsenal,Alan Pardew,Arsene Wenger
-313,32,,,Everton,Leicester City,Ronald Koeman,Claudio Ranieri
-314,32,,,Manchester City,Hull City,Pep Guardiola,Mike Phelan
-315,32,,,Middlesborough,Burnley,Aitor Karanka,Sean Dyche
-316,32,,,Stoke City,Liverpool,Mark Hughes,Jurgen Klopp
-317,32,,,Sunderland,Manchester United,David Moyes,Jose Mourinho
-318,32,,,Tottenham Hotspur,Watford,Mauricio Pochettino,Walter Mazzarri
-319,32,,,West Bromwich Albion,Southampton,Tony Pullis,Claude Puel
-320,32,,,West Ham United,Swansea City,Slaven Bilic,Bob Bradley
-321,33,,,Crystal Palace,Leicester City,Alan Pardew,Claudio Ranieri
-322,33,,,Everton,Burnley,Ronald Koeman,Sean Dyche
-323,33,,,Manchester United,Chelsea,Jose Mourinho,Antonio Conte
-324,33,,,Middlesborough,Arsenal,Aitor Karanka,Arsene Wenger
-325,33,,,Southampton,Manchester City,Claude Puel,Pep Guardiola
-326,33,,,Stoke City,Hull City,Mark Hughes,Mike Phelan
-327,33,,,Sunderland,West Ham United,David Moyes,Slaven Bilic
-328,33,,,Tottenham Hotspur,Bournemouth,Mauricio Pochettino,Eddie Howe
-329,33,,,Watford,Swansea City,Walter Mazzarri,Bob Bradley
-330,33,,,West Bromwich Albion,Liverpool,Tony Pullis,Jurgen Klopp
-331,34,,,Arsenal,Sunderland,Arsene Wenger,David Moyes
-332,34,,,Bournemouth,Middlesborough,Eddie Howe,Aitor Karanka
-333,34,,,Burnley,Manchester United,Sean Dyche,Jose Mourinho
-334,34,,,Chelsea,Southampton,Antonio Conte,Claude Puel
-335,34,,,Hull City,Watford,Mike Phelan,Walter Mazzarri
-336,34,,,Leicester City,Tottenham Hotspur,Claudio Ranieri,Mauricio Pochettino
-337,34,,,Liverpool,Crystal Palace,Jurgen Klopp,Alan Pardew
-338,34,,,Manchester City,West Bromwich Albion,Pep Guardiola,Tony Pullis
-339,34,,,Swansea City,Stoke City,Bob Bradley,Mark Hughes
-340,34,,,West Ham United,Everton,Slaven Bilic,Ronald Koeman
-341,35,,,Crystal Palace,Burnley,Alan Pardew,Sean Dyche
-342,35,,,Everton,Chelsea,Ronald Koeman,Antonio Conte
-343,35,,,Manchester United,Swansea City,Jose Mourinho,Bob Bradley
-344,35,,,Middlesborough,Manchester City,Aitor Karanka,Pep Guardiola
-345,35,,,Southampton,Hull City,Claude Puel,Mike Phelan
-346,35,,,Stoke City,West Ham United,Mark Hughes,Slaven Bilic
-347,35,,,Sunderland,Bournemouth,David Moyes,Eddie Howe
-348,35,,,Tottenham Hotspur,Arsenal,Mauricio Pochettino,Arsene Wenger
-349,35,,,Watford,Liverpool,Walter Mazzarri,Jurgen Klopp
-350,35,,,West Bromwich Albion,Leicester City,Tony Pullis,Claudio Ranieri
-351,36,,,Arsenal,Manchester United,Arsene Wenger,Jose Mourinho
-352,36,,,Bournemouth,Stoke City,Eddie Howe,Mark Hughes
-353,36,,,Burnley,West Bromwich Albion,Sean Dyche,Tony Pullis
-354,36,,,Chelsea,Middlesborough,Antonio Conte,Aitor Karanka
-355,36,,,Hull City,Sunderland,Mike Phelan,David Moyes
-356,36,,,Leicester City,Watford,Claudio Ranieri,Walter Mazzarri
-357,36,,,Liverpool,Southampton,Jurgen Klopp,Claude Puel
-358,36,,,Manchester City,Crystal Palace,Pep Guardiola,Alan Pardew
-359,36,,,Swansea City,Everton,Bob Bradley,Ronald Koeman
-360,36,,,West Ham United,Tottenham Hotspur,Slaven Bilic,Mauricio Pochettino
-361,37,,,Bournemouth,Burnley,Eddie Howe,Sean Dyche
-362,37,,,Crystal Palace,Hull City,Alan Pardew,Mike Phelan
-363,37,,,Everton,Watford,Ronald Koeman,Walter Mazzarri
-364,37,,,Manchester City,Leicester City,Pep Guardiola,Claudio Ranieri
-365,37,,,Middlesborough,Southampton,Aitor Karanka,Claude Puel
-366,37,,,Stoke City,Arsenal,Mark Hughes,Arsene Wenger
-367,37,,,Sunderland,Swansea City,David Moyes,Bob Bradley
-368,37,,,Tottenham Hotspur,Manchester United,Mauricio Pochettino,Jose Mourinho
-369,37,,,West Bromwich Albion,Chelsea,Tony Pullis,Antonio Conte
-370,37,,,West Ham United,Liverpool,Slaven Bilic,Jurgen Klopp
-371,38,,,Arsenal,Everton,Arsene Wenger,Ronald Koeman
-372,38,,,Burnley,West Ham United,Sean Dyche,Slaven Bilic
-373,38,,,Chelsea,Sunderland,Antonio Conte,David Moyes
-374,38,,,Hull City,Tottenham Hotspur,Mike Phelan,Mauricio Pochettino
-375,38,,,Leicester City,Bournemouth,Claudio Ranieri,Eddie Howe
-376,38,,,Liverpool,Middlesborough,Jurgen Klopp,Aitor Karanka
-377,38,,,Manchester United,Crystal Palace,Jose Mourinho,Alan Pardew
-378,38,,,Southampton,Stoke City,Claude Puel,Mark Hughes
-379,38,,,Swansea City,West Bromwich Albion,Bob Bradley,Tony Pullis
-380,38,,,Watford,Manchester City,Walter Mazzarri,Pep Guardiola
+1,1,0,1,3,16,Sean Dyche,Bob Bradley
+2,1,0,1,5,19,Alan Pardew,Tony Pullis
+3,1,1,1,6,17,Ronald Koeman,Mauricio Pochettino
+4,1,2,1,7,8,Mike Phelan,Claudio Ranieri
+5,1,2,1,10,15,Pep Guardiola,David Moyes
+6,1,1,1,12,14,Aitor Karanka,Mark Hughes
+7,1,1,1,13,18,Claude Puel,Walter Mazzarri
+8,1,3,4,1,9,Arsene Wenger,Jurgen Klopp
+9,1,1,3,2,11,Eddie Howe,Jose Mourinho
+10,1,2,1,4,20,Antonio Conte,Slaven Bilic
+11,2,2,0,11,13,Jose Mourinho,Claude Puel
+12,2,2,0,3,9,Sean Dyche,Jurgen Klopp
+13,2,0,0,8,1,Claudio Ranieri,Arsene Wenger
+14,2,1,4,14,10,Mark Hughes,Pep Guardiola
+15,2,0,2,16,7,Bob Bradley,Mike Phelan
+16,2,1,0,17,5,Mauricio Pochettino,Alan Pardew
+17,2,1,2,18,4,Walter Mazzarri,Antonio Conte
+18,2,1,2,19,6,Tony Pullis,Ronald Koeman
+19,2,1,2,15,12,David Moyes,Aitor Karanka
+20,2,1,0,20,2,Slaven Bilic,Eddie Howe
+21,3,3,0,4,3,Antonio Conte,Sean Dyche
+22,3,1,1,5,2,Alan Pardew,Eddie Howe
+23,3,1,0,6,14,Ronald Koeman,Mark Hughes
+24,3,0,1,7,11,Mike Phelan,Jose Mourinho
+25,3,2,1,8,16,Claudio Ranieri,Bob Bradley
+26,3,1,1,13,15,Claude Puel,David Moyes
+27,3,1,1,17,9,Mauricio Pochettino,Jurgen Klopp
+28,3,1,3,18,1,Walter Mazzarri,Arsene Wenger
+29,3,3,1,10,20,Pep Guardiola,Slaven Bilic
+30,3,0,0,19,12,Tony Pullis,Aitor Karanka
+31,4,2,1,1,13,Arsene Wenger,Claude Puel
+32,4,1,0,2,19,Eddie Howe,Tony Pullis
+33,4,1,1,3,7,Sean Dyche,Mike Phelan
+34,4,4,1,9,8,Jurgen Klopp,Claudio Ranieri
+35,4,1,2,11,10,Jose Mourinho,Pep Guardiola
+36,4,1,2,12,5,Aitor Karanka,Alan Pardew
+37,4,0,4,14,17,Mark Hughes,Mauricio Pochettino
+38,4,2,4,20,18,Slaven Bilic,Walter Mazzarri
+39,4,2,2,16,4,Bob Bradley,Antonio Conte
+40,4,0,3,15,6,David Moyes,Ronald Koeman
+41,5,1,2,4,9,Antonio Conte,Jurgen Klopp
+42,5,3,1,6,12,Ronald Koeman,Aitor Karanka
+43,5,1,4,7,1,Mike Phelan,Arsene Wenger
+44,5,3,0,8,3,Claudio Ranieri,Sean Dyche
+45,5,4,0,10,2,Pep Guardiola,Eddie Howe
+46,5,4,2,19,20,Tony Pullis,Slaven Bilic
+47,5,4,1,5,14,Alan Pardew,Mark Hughes
+48,5,1,0,13,16,Claude Puel,Bob Bradley
+49,5,1,0,17,15,Mauricio Pochettino,David Moyes
+50,5,3,1,18,11,Walter Mazzarri,Jose Mourinho
+51,6,3,0,1,4,Arsene Wenger,Antonio Conte
+52,6,1,0,2,6,Eddie Howe,Ronald Koeman
+53,6,5,1,9,7,Jurgen Klopp,Mike Phelan
+54,6,4,1,11,8,Jose Mourinho,Claudio Ranieri
+55,6,1,2,12,17,Aitor Karanka,Mauricio Pochettino
+56,6,1,1,14,19,Mark Hughes,Tony Pullis
+57,6,2,3,15,5,David Moyes,Alan Pardew
+58,6,1,3,16,10,Bob Bradley,Pep Guardiola
+59,6,0,3,20,13,Slaven Bilic,Claude Puel
+60,6,2,0,3,18,Sean Dyche,Walter Mazzarri
+61,7,0,1,3,1,Sean Dyche,Arsene Wenger
+62,7,1,1,6,5,Ronald Koeman,Alan Pardew
+63,7,0,2,7,4,Mike Phelan,Antonio Conte
+64,7,0,0,8,13,Claudio Ranieri,Claude Puel
+65,7,1,1,11,14,Jose Mourinho,Mark Hughes
+66,7,1,1,15,19,David Moyes,Tony Pullis
+67,7,1,2,16,9,Bob Bradley,Jurgen Klopp
+68,7,2,0,17,10,Mauricio Pochettino,Pep Guardiola
+69,7,2,2,18,2,Walter Mazzarri,Eddie Howe
+70,7,1,1,20,12,Slaven Bilic,Aitor Karanka
+71,8,3,2,1,16,Arsene Wenger,Bob Bradley
+72,8,6,1,2,7,Eddie Howe,Mike Phelan
+73,8,3,0,4,8,Antonio Conte,Claudio Ranieri
+74,8,0,1,5,20,Alan Pardew,Slaven Bilic
+75,8,0,0,9,11,Jurgen Klopp,Jose Mourinho
+76,8,1,1,10,6,Pep Guardiola,Ronald Koeman
+77,8,0,1,12,18,Aitor Karanka,Walter Mazzarri
+78,8,3,1,13,3,Claude Puel,Sean Dyche
+79,8,2,0,14,15,Mark Hughes,David Moyes
+80,8,1,1,19,17,Tony Pullis,Mauricio Pochettino
+81,9,0,0,1,12,Arsene Wenger,Aitor Karanka
+82,9,0,0,2,17,Eddie Howe,Mauricio Pochettino
+83,9,2,1,3,6,Sean Dyche,Ronald Koeman
+84,9,4,0,4,11,Antonio Conte,Jose Mourinho
+85,9,0,2,7,14,Mike Phelan,Mark Hughes
+86,9,3,1,8,5,Claudio Ranieri,Alan Pardew
+87,9,2,1,9,19,Jurgen Klopp,Tony Pullis
+88,9,1,1,10,13,Pep Guardiola,Claude Puel
+89,9,0,0,16,18,Bob Bradley,Walter Mazzarri
+90,9,1,0,20,15,Slaven Bilic,David Moyes
+91,10,2,4,5,9,Alan Pardew,Jurgen Klopp
+92,10,2,0,6,20,Ronald Koeman,Slaven Bilic
+93,10,0,0,11,3,Jose Mourinho,Sean Dyche
+94,10,2,0,12,2,Aitor Karanka,Eddie Howe
+95,10,0,2,13,4,Claude Puel,Antonio Conte
+96,10,3,1,14,16,Mark Hughes,Bob Bradley
+97,10,1,4,15,1,David Moyes,Arsene Wenger
+98,10,1,1,17,8,Mauricio Pochettino,Claudio Ranieri
+99,10,1,0,18,7,Walter Mazzarri,Mike Phelan
+100,10,0,4,19,10,Tony Pullis,Pep Guardiola
+101,11,1,1,1,17,Arsene Wenger,Mauricio Pochettino
+102,11,1,2,2,15,Eddie Howe,David Moyes
+103,11,3,2,3,5,Sean Dyche,Alan Pardew
+104,11,5,0,4,6,Antonio Conte,Ronald Koeman
+105,11,2,1,7,13,Mike Phelan,Claude Puel
+106,11,1,2,8,19,Claudio Ranieri,Tony Pullis
+107,11,6,1,9,18,Jurgen Klopp,Walter Mazzarri
+108,11,1,1,10,12,Pep Guardiola,Aitor Karanka
+109,11,1,3,16,11,Bob Bradley,Jose Mourinho
+110,11,1,1,20,14,Slaven Bilic,Mark Hughes
+111,12,1,2,5,10,Alan Pardew,Pep Guardiola
+112,12,1,1,6,16,Ronald Koeman,Bob Bradley
+113,12,1,1,11,1,Jose Mourinho,Arsene Wenger
+114,12,0,1,12,4,Aitor Karanka,Antonio Conte
+115,12,0,0,13,9,Claude Puel,Jurgen Klopp
+116,12,0,1,14,2,Mark Hughes,Eddie Howe
+117,12,3,0,15,7,David Moyes,Mike Phelan
+118,12,3,2,17,20,Mauricio Pochettino,Slaven Bilic
+119,12,2,1,18,8,Walter Mazzarri,Claudio Ranieri
+120,12,4,0,19,3,Tony Pullis,Sean Dyche
+121,13,3,1,1,2,Arsene Wenger,Eddie Howe
+122,13,1,2,3,10,Sean Dyche,Pep Guardiola
+123,13,2,1,4,17,Antonio Conte,Mauricio Pochettino
+124,13,1,1,7,19,Mike Phelan,Tony Pullis
+125,13,2,2,8,12,Claudio Ranieri,Aitor Karanka
+126,13,2,0,9,15,Jurgen Klopp,David Moyes
+127,13,1,1,11,20,Jose Mourinho,Slaven Bilic
+128,13,1,0,13,6,Claude Puel,Ronald Koeman
+129,13,5,4,16,5,Bob Bradley,Alan Pardew
+130,13,0,1,18,14,Walter Mazzarri,Mark Hughes
+131,14,4,3,2,9,Eddie Howe,Jurgen Klopp
+132,14,3,0,5,13,Alan Pardew,Claude Puel
+133,14,1,1,6,11,Ronald Koeman,Jose Mourinho
+134,14,1,3,10,4,Pep Guardiola,Antonio Conte
+135,14,1,0,12,7,Aitor Karanka,Mike Phelan
+136,14,2,0,14,3,Mark Hughes,Sean Dyche
+137,14,2,1,15,8,David Moyes,Claudio Ranieri
+138,14,5,0,17,16,Mauricio Pochettino,Bob Bradley
+139,14,3,1,19,18,Tony Pullis,Walter Mazzarri
+140,14,1,5,20,1,Slaven Bilic,Arsene Wenger
+141,15,,,1,14,Arsene Wenger,Mark Hughes
+142,15,,,3,2,Sean Dyche,Eddie Howe
+143,15,,,4,19,Antonio Conte,Tony Pullis
+144,15,,,7,5,Mike Phelan,Alan Pardew
+145,15,,,8,10,Claudio Ranieri,Pep Guardiola
+146,15,,,9,20,Jurgen Klopp,Slaven Bilic
+147,15,,,16,15,Bob Bradley,David Moyes
+148,15,,,18,6,Walter Mazzarri,Ronald Koeman
+149,15,,,11,17,Jose Mourinho,Mauricio Pochettino
+150,15,,,13,12,Claude Puel,Aitor Karanka
+151,16,,,2,8,Eddie Howe,Claudio Ranieri
+152,16,,,15,4,David Moyes,Antonio Conte
+153,16,,,19,16,Tony Pullis,Bob Bradley
+154,16,,,20,3,Slaven Bilic,Sean Dyche
+155,16,,,5,11,Alan Pardew,Jose Mourinho
+156,16,,,6,1,Ronald Koeman,Arsene Wenger
+157,16,,,10,18,Pep Guardiola,Walter Mazzarri
+158,16,,,12,9,Aitor Karanka,Jurgen Klopp
+159,16,,,14,13,Mark Hughes,Claude Puel
+160,16,,,17,7,Mauricio Pochettino,Mike Phelan
+161,17,,,2,13,Eddie Howe,Claude Puel
+162,17,,,5,4,Alan Pardew,Antonio Conte
+163,17,,,6,9,Ronald Koeman,Jurgen Klopp
+164,17,,,10,1,Pep Guardiola,Arsene Wenger
+165,17,,,12,16,Aitor Karanka,Bob Bradley
+166,17,,,14,8,Mark Hughes,Claudio Ranieri
+167,17,,,15,18,David Moyes,Walter Mazzarri
+168,17,,,17,3,Mauricio Pochettino,Sean Dyche
+169,17,,,19,11,Tony Pullis,Jose Mourinho
+170,17,,,20,7,Slaven Bilic,Mike Phelan
+171,18,,,1,19,Arsene Wenger,Tony Pullis
+172,18,,,3,12,Sean Dyche,Aitor Karanka
+173,18,,,4,2,Antonio Conte,Eddie Howe
+174,18,,,7,10,Mike Phelan,Pep Guardiola
+175,18,,,8,6,Claudio Ranieri,Ronald Koeman
+176,18,,,9,14,Jurgen Klopp,Mark Hughes
+177,18,,,11,15,Jose Mourinho,David Moyes
+178,18,,,13,17,Claude Puel,Mauricio Pochettino
+179,18,,,16,20,Bob Bradley,Slaven Bilic
+180,18,,,18,5,Walter Mazzarri,Alan Pardew
+181,19,,,1,5,Arsene Wenger,Alan Pardew
+182,19,,,3,15,Sean Dyche,David Moyes
+183,19,,,4,14,Antonio Conte,Mark Hughes
+184,19,,,7,6,Mike Phelan,Ronald Koeman
+185,19,,,8,20,Claudio Ranieri,Slaven Bilic
+186,19,,,9,10,Jurgen Klopp,Pep Guardiola
+187,19,,,11,12,Jose Mourinho,Aitor Karanka
+188,19,,,13,19,Claude Puel,Tony Pullis
+189,19,,,16,2,Bob Bradley,Eddie Howe
+190,19,,,18,17,Walter Mazzarri,Mauricio Pochettino
+191,20,,,2,1,Eddie Howe,Arsene Wenger
+192,20,,,5,16,Alan Pardew,Bob Bradley
+193,20,,,6,13,Ronald Koeman,Claude Puel
+194,20,,,10,3,Pep Guardiola,Sean Dyche
+195,20,,,12,8,Aitor Karanka,Claudio Ranieri
+196,20,,,14,18,Mark Hughes,Walter Mazzarri
+197,20,,,15,9,David Moyes,Jurgen Klopp
+198,20,,,17,4,Mauricio Pochettino,Antonio Conte
+199,20,,,19,7,Tony Pullis,Mike Phelan
+200,20,,,20,11,Slaven Bilic,Jose Mourinho
+201,21,,,3,13,Sean Dyche,Claude Puel
+202,21,,,6,10,Ronald Koeman,Pep Guardiola
+203,21,,,7,2,Mike Phelan,Eddie Howe
+204,21,,,8,4,Claudio Ranieri,Antonio Conte
+205,21,,,11,9,Jose Mourinho,Jurgen Klopp
+206,21,,,15,14,David Moyes,Mark Hughes
+207,21,,,16,1,Bob Bradley,Arsene Wenger
+208,21,,,17,19,Mauricio Pochettino,Tony Pullis
+209,21,,,18,12,Walter Mazzarri,Aitor Karanka
+210,21,,,20,5,Slaven Bilic,Alan Pardew
+211,22,,,1,3,Arsene Wenger,Sean Dyche
+212,22,,,2,18,Eddie Howe,Walter Mazzarri
+213,22,,,4,7,Antonio Conte,Mike Phelan
+214,22,,,5,6,Alan Pardew,Ronald Koeman
+215,22,,,9,16,Jurgen Klopp,Bob Bradley
+216,22,,,10,17,Pep Guardiola,Mauricio Pochettino
+217,22,,,12,20,Aitor Karanka,Slaven Bilic
+218,22,,,13,8,Claude Puel,Claudio Ranieri
+219,22,,,14,11,Mark Hughes,Jose Mourinho
+220,22,,,19,15,Tony Pullis,David Moyes
+221,23,,,1,18,Arsene Wenger,Walter Mazzarri
+222,23,,,2,5,Eddie Howe,Alan Pardew
+223,23,,,3,8,Sean Dyche,Claudio Ranieri
+224,23,,,12,19,Aitor Karanka,Tony Pullis
+225,23,,,15,17,David Moyes,Mauricio Pochettino
+226,23,,,16,13,Bob Bradley,Claude Puel
+227,23,,,20,10,Slaven Bilic,Pep Guardiola
+228,23,,,9,4,Jurgen Klopp,Antonio Conte
+229,23,,,11,7,Jose Mourinho,Mike Phelan
+230,23,,,14,6,Mark Hughes,Ronald Koeman
+231,24,,,4,1,Antonio Conte,Arsene Wenger
+232,24,,,5,15,Alan Pardew,David Moyes
+233,24,,,6,2,Ronald Koeman,Eddie Howe
+234,24,,,7,9,Mike Phelan,Jurgen Klopp
+235,24,,,8,11,Claudio Ranieri,Jose Mourinho
+236,24,,,10,16,Pep Guardiola,Bob Bradley
+237,24,,,13,20,Claude Puel,Slaven Bilic
+238,24,,,17,12,Mauricio Pochettino,Aitor Karanka
+239,24,,,18,3,Walter Mazzarri,Sean Dyche
+240,24,,,19,14,Tony Pullis,Mark Hughes
+241,25,,,1,7,Arsene Wenger,Mike Phelan
+242,25,,,2,10,Eddie Howe,Pep Guardiola
+243,25,,,3,4,Sean Dyche,Antonio Conte
+244,25,,,9,17,Jurgen Klopp,Mauricio Pochettino
+245,25,,,11,18,Jose Mourinho,Walter Mazzarri
+246,25,,,12,6,Aitor Karanka,Ronald Koeman
+247,25,,,14,5,Mark Hughes,Alan Pardew
+248,25,,,15,13,David Moyes,Claude Puel
+249,25,,,16,8,Bob Bradley,Claudio Ranieri
+250,25,,,20,19,Slaven Bilic,Tony Pullis
+251,26,,,4,16,Antonio Conte,Bob Bradley
+252,26,,,5,12,Alan Pardew,Aitor Karanka
+253,26,,,6,15,Ronald Koeman,David Moyes
+254,26,,,7,3,Mike Phelan,Sean Dyche
+255,26,,,8,9,Claudio Ranieri,Jurgen Klopp
+256,26,,,10,11,Pep Guardiola,Jose Mourinho
+257,26,,,13,1,Claude Puel,Arsene Wenger
+258,26,,,17,14,Mauricio Pochettino,Mark Hughes
+259,26,,,18,20,Walter Mazzarri,Slaven Bilic
+260,26,,,19,2,Tony Pullis,Eddie Howe
+261,27,,,8,7,Claudio Ranieri,Mike Phelan
+262,27,,,9,1,Jurgen Klopp,Arsene Wenger
+263,27,,,11,2,Jose Mourinho,Eddie Howe
+264,27,,,14,12,Mark Hughes,Aitor Karanka
+265,27,,,15,10,David Moyes,Pep Guardiola
+266,27,,,16,3,Bob Bradley,Sean Dyche
+267,27,,,17,6,Mauricio Pochettino,Ronald Koeman
+268,27,,,18,13,Walter Mazzarri,Claude Puel
+269,27,,,19,5,Tony Pullis,Alan Pardew
+270,27,,,20,4,Slaven Bilic,Antonio Conte
+271,28,,,1,8,Arsene Wenger,Claudio Ranieri
+272,28,,,2,20,Eddie Howe,Slaven Bilic
+273,28,,,4,18,Antonio Conte,Walter Mazzarri
+274,28,,,5,17,Alan Pardew,Mauricio Pochettino
+275,28,,,6,19,Ronald Koeman,Tony Pullis
+276,28,,,7,16,Mike Phelan,Bob Bradley
+277,28,,,10,14,Pep Guardiola,Mark Hughes
+278,28,,,12,15,Aitor Karanka,David Moyes
+279,28,,,13,11,Claude Puel,Jose Mourinho
+280,28,,,9,3,Jurgen Klopp,Sean Dyche
+281,29,,,2,16,Eddie Howe,Bob Bradley
+282,29,,,5,18,Alan Pardew,Walter Mazzarri
+283,29,,,6,7,Ronald Koeman,Mike Phelan
+284,29,,,10,9,Pep Guardiola,Jurgen Klopp
+285,29,,,12,11,Aitor Karanka,Jose Mourinho
+286,29,,,14,4,Mark Hughes,Antonio Conte
+287,29,,,15,3,David Moyes,Sean Dyche
+288,29,,,17,13,Mauricio Pochettino,Claude Puel
+289,29,,,19,1,Tony Pullis,Arsene Wenger
+290,29,,,20,8,Slaven Bilic,Claudio Ranieri
+291,30,,,1,10,Arsene Wenger,Pep Guardiola
+292,30,,,3,17,Sean Dyche,Mauricio Pochettino
+293,30,,,4,5,Antonio Conte,Alan Pardew
+294,30,,,7,20,Mike Phelan,Slaven Bilic
+295,30,,,8,14,Claudio Ranieri,Mark Hughes
+296,30,,,9,6,Jurgen Klopp,Ronald Koeman
+297,30,,,11,19,Jose Mourinho,Tony Pullis
+298,30,,,13,2,Claude Puel,Eddie Howe
+299,30,,,16,12,Bob Bradley,Aitor Karanka
+300,30,,,18,15,Walter Mazzarri,David Moyes
+301,31,,,1,20,Arsene Wenger,Slaven Bilic
+302,31,,,3,14,Sean Dyche,Mark Hughes
+303,31,,,7,12,Mike Phelan,Aitor Karanka
+304,31,,,8,15,Claudio Ranieri,David Moyes
+305,31,,,11,6,Jose Mourinho,Ronald Koeman
+306,31,,,16,17,Bob Bradley,Mauricio Pochettino
+307,31,,,18,19,Walter Mazzarri,Tony Pullis
+308,31,,,4,10,Antonio Conte,Pep Guardiola
+309,31,,,9,2,Jurgen Klopp,Eddie Howe
+310,31,,,13,5,Claude Puel,Alan Pardew
+311,32,,,2,4,Eddie Howe,Antonio Conte
+312,32,,,5,1,Alan Pardew,Arsene Wenger
+313,32,,,6,8,Ronald Koeman,Claudio Ranieri
+314,32,,,10,7,Pep Guardiola,Mike Phelan
+315,32,,,12,3,Aitor Karanka,Sean Dyche
+316,32,,,14,9,Mark Hughes,Jurgen Klopp
+317,32,,,15,11,David Moyes,Jose Mourinho
+318,32,,,17,18,Mauricio Pochettino,Walter Mazzarri
+319,32,,,19,13,Tony Pullis,Claude Puel
+320,32,,,20,16,Slaven Bilic,Bob Bradley
+321,33,,,5,8,Alan Pardew,Claudio Ranieri
+322,33,,,6,3,Ronald Koeman,Sean Dyche
+323,33,,,11,4,Jose Mourinho,Antonio Conte
+324,33,,,12,1,Aitor Karanka,Arsene Wenger
+325,33,,,13,10,Claude Puel,Pep Guardiola
+326,33,,,14,7,Mark Hughes,Mike Phelan
+327,33,,,15,20,David Moyes,Slaven Bilic
+328,33,,,17,2,Mauricio Pochettino,Eddie Howe
+329,33,,,18,16,Walter Mazzarri,Bob Bradley
+330,33,,,19,9,Tony Pullis,Jurgen Klopp
+331,34,,,1,15,Arsene Wenger,David Moyes
+332,34,,,2,12,Eddie Howe,Aitor Karanka
+333,34,,,3,11,Sean Dyche,Jose Mourinho
+334,34,,,4,13,Antonio Conte,Claude Puel
+335,34,,,7,18,Mike Phelan,Walter Mazzarri
+336,34,,,8,17,Claudio Ranieri,Mauricio Pochettino
+337,34,,,9,5,Jurgen Klopp,Alan Pardew
+338,34,,,10,19,Pep Guardiola,Tony Pullis
+339,34,,,16,14,Bob Bradley,Mark Hughes
+340,34,,,20,6,Slaven Bilic,Ronald Koeman
+341,35,,,5,3,Alan Pardew,Sean Dyche
+342,35,,,6,4,Ronald Koeman,Antonio Conte
+343,35,,,11,16,Jose Mourinho,Bob Bradley
+344,35,,,12,10,Aitor Karanka,Pep Guardiola
+345,35,,,13,7,Claude Puel,Mike Phelan
+346,35,,,14,20,Mark Hughes,Slaven Bilic
+347,35,,,15,2,David Moyes,Eddie Howe
+348,35,,,17,1,Mauricio Pochettino,Arsene Wenger
+349,35,,,18,9,Walter Mazzarri,Jurgen Klopp
+350,35,,,19,8,Tony Pullis,Claudio Ranieri
+351,36,,,1,11,Arsene Wenger,Jose Mourinho
+352,36,,,2,14,Eddie Howe,Mark Hughes
+353,36,,,3,19,Sean Dyche,Tony Pullis
+354,36,,,4,12,Antonio Conte,Aitor Karanka
+355,36,,,7,15,Mike Phelan,David Moyes
+356,36,,,8,18,Claudio Ranieri,Walter Mazzarri
+357,36,,,9,13,Jurgen Klopp,Claude Puel
+358,36,,,10,5,Pep Guardiola,Alan Pardew
+359,36,,,16,6,Bob Bradley,Ronald Koeman
+360,36,,,20,17,Slaven Bilic,Mauricio Pochettino
+361,37,,,2,3,Eddie Howe,Sean Dyche
+362,37,,,5,7,Alan Pardew,Mike Phelan
+363,37,,,6,18,Ronald Koeman,Walter Mazzarri
+364,37,,,10,8,Pep Guardiola,Claudio Ranieri
+365,37,,,12,13,Aitor Karanka,Claude Puel
+366,37,,,14,1,Mark Hughes,Arsene Wenger
+367,37,,,15,16,David Moyes,Bob Bradley
+368,37,,,17,11,Mauricio Pochettino,Jose Mourinho
+369,37,,,19,4,Tony Pullis,Antonio Conte
+370,37,,,20,9,Slaven Bilic,Jurgen Klopp
+371,38,,,1,6,Arsene Wenger,Ronald Koeman
+372,38,,,3,20,Sean Dyche,Slaven Bilic
+373,38,,,4,15,Antonio Conte,David Moyes
+374,38,,,7,17,Mike Phelan,Mauricio Pochettino
+375,38,,,8,2,Claudio Ranieri,Eddie Howe
+376,38,,,9,12,Jurgen Klopp,Aitor Karanka
+377,38,,,11,5,Jose Mourinho,Alan Pardew
+378,38,,,13,14,Claude Puel,Mark Hughes
+379,38,,,16,19,Bob Bradley,Tony Pullis
+380,38,,,18,10,Walter Mazzarri,Pep Guardiola

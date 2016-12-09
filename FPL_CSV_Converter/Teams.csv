@@ -1,21 +1,21 @@
-name,rank,city,region,stadium
-Arsenal,2,London,London,Emirates Stadiun
-Bournemouth,10,Bournemouth,South West,Dean Court
-Burnley,15,Burnley,North West,Turf Moor
-Chelsea,1,London,London,Stamford Bridge
-Crystal Palace,14,London,London,Selhurst Park
-Everton,8,Liverpool,North West,Goodison Park
-Hull City,19,Hull City,Yorkshire and the Humber,KC Stadium
-Leicester City,16,Leicester City,East Midlands,King Power Staidum
-Liverpool,3,Liverpool,North West,Anfield
-Manchester City,4,Manchester,North West,The Etihad
-Manchester United,6,Manchester,North West,Old Trafford
-Middlesborough,13,Middlesborough,North East,Riverside Stadium
-Southampton,12,Southampton,South East,Saint Mary's Stadium
-Stoke City,9,Stoke-on-Trent,West Midlands,Britannia Stadium
-Sunderland,18,Sunderland,North East,Stadium of Light
-Swansea City,20,Swansea City,Wales,Liberty Stadium
-Tottenham Hotspur,5,London,London,White Hart Lane
-Watford,11,Watford,London,Vicarage Road
-West Bromwich Albion,7,Birmingham,West Midlands,The Hawthornes
-West Ham United,17,London,London,London Stadium
+id,name,rank,city,region,stadium
+1,Arsenal,2,London,London,Emirates Stadiun
+2,Bournemouth,10,Bournemouth,South West,Dean Court
+3,Burnley,15,Burnley,North West,Turf Moor
+4,Chelsea,1,London,London,Stamford Bridge
+5,Crystal Palace,14,London,London,Selhurst Park
+6,Everton,8,Liverpool,North West,Goodison Park
+7,Hull City,19,Hull City,Yorkshire and the Humber,KC Stadium
+8,Leicester City,16,Leicester City,East Midlands,King Power Staidum
+9,Liverpool,3,Liverpool,North West,Anfield
+10,Manchester City,4,Manchester,North West,The Etihad
+11,Manchester United,6,Manchester,North West,Old Trafford
+12,Middlesborough,13,Middlesborough,North East,Riverside Stadium
+13,Southampton,12,Southampton,South East,Saint Mary's Stadium
+14,Stoke City,9,Stoke-on-Trent,West Midlands,Britannia Stadium
+15,Sunderland,18,Sunderland,North East,Stadium of Light
+16,Swansea City,20,Swansea City,Wales,Liberty Stadium
+17,Tottenham Hotspur,5,London,London,White Hart Lane
+18,Watford,11,Watford,London,Vicarage Road
+19,West Bromwich Albion,7,Birmingham,West Midlands,The Hawthornes
+20,West Ham United,17,London,London,London Stadium
