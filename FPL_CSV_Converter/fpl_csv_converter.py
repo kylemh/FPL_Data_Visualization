@@ -1,3 +1,14 @@
+"""
+Authors: Kyle Holmberg and Zoe Olson
+Maintainer: Kyle Holmberg
+Email: kylemh@protonmail.com
+
+Database System and Data Visualization Project
+CIS407 and CIS451 at the University of Oregon
+
+Dynamic JSON to CSV conversion of data on fantasy.premierleague.com
+"""
+
 import requests
 import sys
 import csv

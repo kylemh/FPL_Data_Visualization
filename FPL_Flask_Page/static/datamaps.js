@@ -1,5 +1,5 @@
 //convert the Python DataFrame to JSON
-var data={{table.to_json(orient ='records') |safe}}
+var data = {{table.to_json(orient ='records') |safe}}
 //create an empty object for Datamap
 //Datamap expects data in format:
 // { "USA": { "fillColor": "#42a844", numberOfWhatever: 75},

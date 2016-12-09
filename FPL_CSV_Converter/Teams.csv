@@ -1,21 +1,21 @@
-name,rank,city,region,stadium,sponsor
-Arsenal,2,London,London,Emirates Stadiun,Fly Emirates
-Bournemouth,10,Bournemouth,South West,Dean Court,Mansion Group
-Burnley,15,Burnley,North West,Turf Moor,dafabet
-Chelsea,1,London,London,Stamford Bridge,Yokohama Tyres
-Crystal Palace,14,London,London,Selhurst Park,Mansion Group
-Everton,8,Liverpool,North West,Goodison Park,Chang
-Hull City,19,Hull City,Yorkshire and the Humber,KC Stadium,SportPesa
-Leicester City,16,Leicester City,East Midlands,King Power Staidum,King Power
-Liverpool,3,Liverpool,North West,Anfield,Standard Chartered
-Manchester City,4,Manchester,North West,The Etihad,Etihad Airways
-Manchester United,6,Manchester,North West,Old Trafford,Chevrolet
-Middlesborough,13,Middlesborough,North East,Riverside Stadium,Ramsdens.tv
-Southampton,12,Southampton,South East,Saint Mary's Stadium,Virgin Radio
-Stoke City,9,Stoke-on-Trent,West Midlands,Britannia Stadium,bet365
-Sunderland,18,Sunderland,North East,Stadium of Light,dafabet
-Swansea City,20,Swansea City,Wales,Liberty Stadium,BetEast
-Tottenham Hotspur,5,London,London,White Hart Lane,AIA
-Watford,11,Watford,London,Vicarage Road,138.com
-West Bromwich Albion,7,Birmingham,West Midlands,The Hawthornes,UK-K8.com
-West Ham United,17,London,London,London Stadium,betway
+name,rank,city,region,stadium,sponsor,Managers_name
+Arsenal,2,London,London,Emirates Stadiun,Fly Emirates,Arsene Wenger
+Bournemouth,10,Bournemouth,South West,Dean Court,Mansion Group,Eddie Howe
+Burnley,15,Burnley,North West,Turf Moor,dafabet,Sean Dyche
+Chelsea,1,London,London,Stamford Bridge,Yokohama Tyres,Antonio Conte
+Crystal Palace,14,London,London,Selhurst Park,Mansion Group,Alan Pardew
+Everton,8,Liverpool,North West,Goodison Park,Chang,Ronald Koeman
+Hull City,19,Hull City,Yorkshire and the Humber,KC Stadium,SportPesa,Mike Phelan
+Leicester City,16,Leicester City,East Midlands,King Power Staidum,King Power,Claudio Ranieri
+Liverpool,3,Liverpool,North West,Anfield,Standard Chartered,Jurgen Klopp
+Manchester City,4,Manchester,North West,The Etihad,Etihad Airways,Pep Guardiola
+Manchester United,6,Manchester,North West,Old Trafford,Chevrolet,Jose Mourinho
+Middlesborough,13,Middlesborough,North East,Riverside Stadium,Ramsdens.tv,Aitor Karanka
+Southampton,12,Southampton,South East,Saint Mary's Stadium,Virgin Radio,Claude Puel
+Stoke City,9,Stoke-on-Trent,West Midlands,Britannia Stadium,bet365,Mark Hughes
+Sunderland,18,Sunderland,North East,Stadium of Light,dafabet,David Moyes
+Swansea City,20,Swansea City,Wales,Liberty Stadium,BetEast,Bob Bradley
+Tottenham Hotspur,5,London,London,White Hart Lane,AIA,Mauricio Pochettino
+Watford,11,Watford,London,Vicarage Road,138.com,Walter Mazzarri
+West Bromwich Albion,7,Birmingham,West Midlands,The Hawthornes,UK-K8.com,Tony Pullis
+West Ham United,17,London,London,London Stadium,betway,Slaven Bilic
