@@ -18,8 +18,8 @@
       <file leaf-file-name="entry.wsgi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entry.wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="78" />
               <folding>
                 <element signature="e#262#311#0" expanded="true" />
                 <marker date="1481260996000" expanded="true" signature="560:581" ph="SELECT * FRO... players" />
@@ -483,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entry.wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="78" />
           <folding>
             <element signature="e#262#311#0" expanded="true" />
             <marker date="1481260996000" expanded="true" signature="560:581" ph="SELECT * FRO... players" />

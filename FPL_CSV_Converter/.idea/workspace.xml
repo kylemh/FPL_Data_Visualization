@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f53fa5-ff47-4b3f-9f6b-2ab6d39df9db" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Retrospective.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fpl_csv_converter.py" afterPath="$PROJECT_DIR$/fpl_csv_converter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FPL_Flask_Page/entry.wsgi.py" afterPath="$PROJECT_DIR$/../FPL_Flask_Page/entry.wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FPL_Flask_Page/static/datamaps.js" afterPath="$PROJECT_DIR$/../FPL_Flask_Page/static/datamaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FPL_Flask_Page/templates/index.html" afterPath="$PROJECT_DIR$/../FPL_Flask_Page/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FPL_Flask_Page/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FPL_Flask_Page/.idea/workspace.xml" />
     </list>
     <ignored path="FPL CSV Converter.iws" />
     <ignored path=".idea/workspace.xml" />
