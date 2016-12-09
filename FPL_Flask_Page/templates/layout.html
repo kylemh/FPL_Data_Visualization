@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+  <!-- Head --> 
+  <head>
+    {% block head %}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Zoe Olson | {% block title %}{% endblock %}</title>
+
+    {% endblock %}
+  </head>
+
+  <!-- Body --> 
+  <body>
+
+    <div id="container">
+
+      <!-- Header --> 
+      <div id="header">
+        {% block header %}
+        {% endblock %}
+      </div>
+
+
+
+      <!-- Content --> 
+
+      <div id="content">
+        {% block content %}
+        {% endblock %}
+      </div>
+
+      <!-- Footer --> 
+      <div id="footer">
+        {% block footer %}
+        &copy; 2016 Zoe and Kyle's Project
+        {% endblock %}
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

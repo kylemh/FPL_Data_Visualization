@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+<!-- Header -->
+{% block header %}
+
+  <h2>Zoe Olson</h2>
+
+{% endblock %}
+
+    
+{% block content %}
+
+  <i>Please enter a country here.</i>
+
+  <form action="/players" method="POST">
+  <input type="text" name="country"><br>
+  <input type="submit" value="submit">
+  <input type="reset" value = "erase">
+  </form>
+
+  <br>
+  <br>
+
+{% endblock %}
