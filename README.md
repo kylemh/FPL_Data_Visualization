@@ -1,4 +1,4 @@
-i# FPL-DataVisualization
+#FPL-Data-Visualization
 
 Zoe Olson, Kyle Holmberg, and Ryan Collier set out a goal to learn about data collection and visualization.
 
