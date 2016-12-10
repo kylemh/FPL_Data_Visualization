@@ -14,10 +14,12 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 <script src="//datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+
 </head>
 <body>
+ 
 <div class="container">
-<h3 class="center-block">Countries of Orgin for English Premier League Players</h3>
+<h3><center>Countries of Orgin for English Premier League Players</center></h3>
 <!-- This container will have our map -->
 <div id="container" style="position: relative; width: 800px; height: 480px;"></div>
  
@@ -25,18 +27,17 @@
 <p>Source: EPL data</p></div>
 
 </div>
-<div class = "entry center-block">
-  <i><h5>Please enter a country to see players:</h5></i>
+<div class = "entry">
+  <center><i><h5>Please enter a country to see players:</h5></i>
 
   <form action="/players" method="POST">
   <input type="text" name="country"><br>
   <input type="submit" value="submit">
   <input type="reset" value = "erase">
-  </form>
-
+  </form></center>
   <div id="entry" style="position: center; width: 400px; height: 300px;"></div>
-</div>
 
+</div>
 <div id="footer">
     {% block footer %}
     &copy; 2016 Zoe Olson and Kyle Holmberg
@@ -55,8 +56,8 @@ var data={{table.to_json(orient ='records') |safe}}
 var dataToMap = {};
  
 //pick some values for the color scale range
-var maxValue = 50;
-var minValue = d3.min(data, function(d) { return +d.appearances;} );
+var maxValue = 20000;
+var minValue = d3.min(data, function(d) { return +d.mins_played;} );
  
 //create color palette function
 var paletteScale = d3.scale.linear()
@@ -73,8 +74,8 @@ if (ctr[i].properties.name.startsWith(d.nationality)){
 iso=ctr[i].id};
 }
 //fill dataset in appropriate format
-var value = d.appearances;
-dataToMap[iso] = { appearances: value, fillColor: paletteScale(value) };
+var value = d.mins_played;
+dataToMap[iso] = { mins_played: value, fillColor: paletteScale(value) };
 });
 //render map
 var map = new Datamap({element: document.getElementById('container'),fills: { defaultFill: '#F5F5F5' },
