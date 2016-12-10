@@ -15,7 +15,7 @@ We chose to analyze the English Premier League as our source of data.
 <ul>
 <li>Algorithmic Fantasy Fooball Script: Python utilizing scikit-learn (Machine Learning) and a Flask container</li>
 <li>Code Rebase</li>
-</li>Creat more visualizations</li>
+<li>Creat more visualizations</li>
 </ul>
 
 <b>To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-Data-Visualization/blob/master/FPL_Notebook_Files/Jupyter_viz.ipynb)</b>
