@@ -5,7 +5,7 @@
 <!-- Header -->
 {% block header %}
 
-  <h2>Zoe Olson</h2>
+  <h2>Zoe Olson and Kyle Holmberg</h2>
 
 {% endblock %}
 
@@ -17,13 +17,13 @@
   <br>
   {% for entry in entries %}
     player #: <b>{{ entry.name }}</b>
-    <small>was born in {{ entry.nationality |safe }}</small>
+    <small>was born in {{ entry.nationality | safe }}</small>
     <br>
 
   {% else %}
     <em>Unbelievable.  No entries here so far</em>
   {% endfor %}
-  {{ entries|length }} English Premier League players are from <b>{{ entries[1].nationality }}</b>
+  {{ entries|length }} English Premier League players are from <b>{{ entries.nationality }}</b>
   <br>
   <br>
 
