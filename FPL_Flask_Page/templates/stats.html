@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}Goals{% endblock %}
+
+<!-- Header -->
+{% block header %}
+
+ 
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+
+  <i>Players</i>
+  <br>
+  <br>
+  {% for entry in entries %}
+    <b>{{ entry.name }}</b>
+    plays position {{ entry.position |safe }} <br>
+    His total points for the season are {{ entry.total_points }}
+    <br>
+    minutes played: <b>{{ entry.mins_played }}</b>
+    <br>
+    goals scored: <b>{{ entry.goals_scored }}</b>
+    <br>
+    assists: <b>{{ entry.assists }}</b>
+    <br>
+    clean sheets: <b>{{ entry.clean_sheets }}</b>
+    <br>
+    penalties saved: <b>{{ entry.penalties_saved }}</b>
+    <br>
+    penalties missed: <b>{{ entry.penalties_missed}}</b>
+    <br>
+    yellow cards: <b>{{ entry.yellow_cards }}</b>
+    <br>
+    red cards: <b>{{ entry.red_cards }}</b>
+   <br>
+  {% else %}
+    <em>Sorry, no players in our database have the name you entered. Please check your spelling and make sure the player is a member of the English Premier League</em>
+  {% endfor %}
+
+  <br>
+  <br>
+
+{% endblock %}

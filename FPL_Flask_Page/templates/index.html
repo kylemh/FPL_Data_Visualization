@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FPL</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- d3 and Datamaps JavaScript -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-    <script src="//datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+<title>Countries of Origin</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- d3 and Datamaps JavaScript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="//datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+
 </head>
-
 <body>
-    <div class="container">
-    <h3><center>Countries of Origin for English Premier League Players</center></h3>
-    <h4><center><i>Please Note: This map shows all countries in the United Kingdom as one.
-    <br>Our data, however, specifies whether or not a player is from England, Scotland, Northern Ireland, or Wales.</i></center></h4>
-    <!-- This container will have our map -->
-    <div id="container" style="position: relative; width: 800px; height: 480px;"></div>
+ 
+<div class="container">
+<h3><center>Countries of Origin for English Premier League Players</center></h3>
+<!-- This container will have our map -->
+<div class="center-block" id="container" style="position: relative; width: 800px; height: 480px;"></div>
+ 
+<div align="center"><h5>Player Appearances in English Premier League by Nationality</h5>
+<p>Source: EPL data</p></div>
 
-    <div align="right"><h5>Player Appearances in English Primier League by Nationality</h5>
-    <p>Source: EPL data</p></div>
+</div>
+<div class="entry center-block">
+  <center><i><h5>Players from country:</h5></i>
 
-    </div>
-    <div class = "entry">
-      <center><i><h5>Please enter a country to see players:</h5></i>
+  <form action="/players" method="POST">
+  <input type="text" name="country" placeholder="Northern Ireland"><br>
+  <input type="submit" value="submit">
+  <input type="reset" value = "erase">
+  </form></center>
+  <div id="entry" style="position: center; width: 400px; height: 50px;"></div>
+  </div>
 
-      <form action="/players" method="POST">
-      <input type="text" name="country"><br>
-      <input type="submit" value="submit">
-      <input type="reset" value = "erase">
-      </form></center>
-      <div id="entry" style="position: center; width: 400px; height: 300px;"></div>
+<div class="entry center-block">
+  <center><i><h5>Players with number of goals scored:</h5></i>
 
-    </div>
-    <div id="footer">
-        {% block footer %}
-        &copy; 2016 Zoe Olson and Kyle Holmberg
-        {% endblock %}
-    </div>
+  <form action="/goals" method="POST">
+  <input type="text" name="goal" placeholder="3"><br>
+  <input type="submit" value="submit">
+  <input type="reset" value = "erase">
+  </form></center>
+  <div id="entry" style="position: center; width: 400px; height: 50px;"></div>
+  </div>
+
+<div class="entry center-block">
+  <center><i><h5>Please enter a players last and then first name:</h5></i>
+
+  <form action="/stats" method="POST">
+  <input type="text" name="stat" placeholder="Cech Petr"><br>
+  <input type="submit" value="submit">
+  <input type="reset" value = "erase">
+  </form></center>
+  <div id="entry" style="position: center; width: 400px; height: 50px;"></div>
+  </div>
+</div>
+
+
+
+<div id="footer">
+    {% block footer %}
+    &copy; 2016 Zoe Olson and Kyle Holmberg
+    {% endblock %}
+</div>
 </body>
+
 </html>
 <script>
 //convert the Python DataFrame to JSON
@@ -80,4 +105,9 @@ dataToMap[iso] = { mins_played: value, fillColor: paletteScale(value) };
 //render map
 var map = new Datamap({element: document.getElementById('container'),fills: { defaultFill: '#F5F5F5' },
 data: dataToMap});
+
 </script>
+
+
+
+

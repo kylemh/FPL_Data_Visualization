@@ -1,29 +1,31 @@
 {% extends "layout.html" %}
 
-{% block title %}Players{% endblock %}
+{% block title %}Goal Metrics{% endblock %}
 
 <!-- Header -->
 {% block header %}
 
-  <h2>Zoe Olson and Kyle Holmberg</h2>
+
 
 {% endblock %}
 
 <!-- Content -->
 {% block content %}
 
-  <i>Players</i>
+  
   <br>
   <br>
+    {{ entries|length }} Premier League players are from <b>{{ user_input }}</b><br>
   {% for entry in entries %}
-    player #: <b>{{ entry.name }}</b>
-    <small>was born in {{ entry.nationality | safe }}</small>
+      <b>{{ entry.name }}</b>
+    <small>was born in {{ entry.nationality |safe }}</small>
     <br>
 
   {% else %}
-    <em>Unbelievable.  No entries here so far</em>
+    <em>Please check your spelling or enter a new country.</em>
   {% endfor %}
-  {{ entries|length }} English Premier League players are from <b>{{ entries.nationality }}</b>
+
+
   <br>
   <br>
 

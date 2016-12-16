@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}Goals{% endblock %}
+
+<!-- Header -->
+{% block header %}
+
+ 
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+
+  <i>Players</i>
+  <br>
+  <br>
+  {% for entry in entries %}
+    <b>{{ entry.name }}</b>
+    <small>scored {{ entry.goals_scored |safe }} goals during game {{ entry.gameweek }}</small>
+    <br>
+
+  {% else %}
+    <em>0 players scored that many goals in a single game.</em>
+  {% endfor %}
+
+  <br>
+  <br>
+
+{% endblock %}
