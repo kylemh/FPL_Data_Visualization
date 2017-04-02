@@ -5,7 +5,9 @@ import time
 import os
 
 import requests
+import asyncio as async
 import pandas as pd
+from aiohttp import ClientSession
 from unidecode import unidecode
 
 
@@ -53,7 +55,7 @@ def get_curr_stats():
         # unidecode replaces accented letters in player names with ascii characters
         PLAYER_NAMES.append(unidecode(bootstrap_data['elements'][i]['first_name'])
                             + ' '
-                            + unidecode(bootstrap_data['elements'][i]['last_name']))
+                            + unidecode(bootstrap_data['elements'][i]['second_name']))
 
         # # Get Player's Team
         # team_code = bootstrap_data['elements'][i]['team_code']

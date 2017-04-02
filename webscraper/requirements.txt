@@ -1,4 +1,9 @@
+aiohttp==2.0.5
 appdirs==1.4.3
+async-timeout==1.2.0
+asyncio==3.4.3
+chardet==2.3.0
+multidict==2.1.4
 numpy==1.12.1
 packaging==16.8
 pandas==0.19.2
@@ -8,3 +13,4 @@ pytz==2017.2
 requests==2.13.0
 six==1.10.0
 Unidecode==0.4.20
+yarl==0.10.0
