@@ -51,6 +51,6 @@ Th
 <li>Algorithmic Fantasy Fooball Script: Python utilizing scikit-learn (Machine Learning)</li>
 </ul>
 
-<b>To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL-Data-Visualization/blob/master/FPL_Notebook_Files/Jupyter_viz.ipynb)</b>
+<b>To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL_Data_Visualization/blob/master/Jupyter_Notebook_Files/Jupyter_viz.ipynb)</b>
 <br>
-<b>To view our Python Web Scraper, click [HERE](https://github.com/kylemh/FPL-Data-Visualization/blob/master/FPL_CSV_Converter/fpl_csv_converter.py)</b>
+<b>To view our Python Web Scraper, click [HERE](https://github.com/kylemh/FPL_Data_Visualization/blob/master/FPL_CSV_Converter/fpl_csv_converter.py)</b>
