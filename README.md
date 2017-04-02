@@ -33,24 +33,82 @@ https://www.cs.uoregon.edu/Classes/16F/cis451/final.html
 
 ## Install
 
+Please install [Virtual Environments](https://pypi.python.org/pypi/virtualenv).
+
+
 **Webscraper**
 
-Th
+1. Clone repository.
+2. Open terminal within repo/webscraper/
+3. Create and activate your virtual environment.
+4. `$ pip3 install -r requirements.txt`
+5. `$ python3 fpl_csv_converter.py`
 
 
-<h1>The Project: What's Finished?</h1>
-<ul>
-<li>Statistical Analysis with Visuals: Jupyter Notebook utilizing pandas and matplotlib</li>
-<li>Data Collection: Python Web Scraper that converts API endpoint JSON into a MySQL Database</li>
-<li>Interactive Data Visualization(s): d3.js, matplotlib, pandas, and Flask</li>
-</ul>
+**Flask App**
 
-<h1>The Project: What's Left?</h1>
-<ul>
+1. Install [Homebrew](https://brew.sh/)
+2. Open terminal and use `$ brew install mysql`
+3. Clone repository.
+4. Change directories in terminal to repo/
+5. `$ mysql -u <username> -p <password> <database name> < create_fpl_models.sql`
+6. `$ cd app`
+6. (Temporary) Edit line 23 of entry.wsgi.py to local MySQL DB location.
+7. Create and activate your virtual environment.
+8. `$ pip3 install -r requirements.txt`
+9. `$ python3 entry.wsgi.py`
 
-<li>Algorithmic Fantasy Fooball Script: Python utilizing scikit-learn (Machine Learning)</li>
-</ul>
 
-<b>To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL_Data_Visualization/blob/master/Jupyter_Notebook_Files/Jupyter_viz.ipynb)</b>
-<br>
-<b>To view our Python Web Scraper, click [HERE](https://github.com/kylemh/FPL_Data_Visualization/blob/master/FPL_CSV_Converter/fpl_csv_converter.py)</b>
+## Contents
+
+**To view our Jupyter Notebook, click [HERE](http://nbviewer.jupyter.org/github/kylemh/FPL_Data_Visualization/blob/master/jupyter_notebook/Jupyter_viz.ipynb)**
+
+```
+├── LICENSE
+├── README.md
+├── app
+│   ├── entry.wsgi.py
+│   ├── requirements.txt
+│   ├── static
+│   └── templates
+├── create_fpl_model.sql
+├── docs
+│   ├── CIS407_Retrospective.pdf
+│   ├── CIS451_Final_Report.pdf
+│   ├── Retrospective.pdf
+│   └── create_fpl_model.sql
+├── jupyter_notebook
+│   ├── Jupyter_viz.ipynb
+│   ├── README.md
+│   └── jupyter_viz_files
+├── mysql_dump.sql
+└── webscraper
+    ├── CurrentSeasonStats.csv
+    ├── History.csv
+    ├── Managers.csv
+    ├── Player.csv
+    ├── PlayerResultStats.csv
+    ├── Result.csv
+    ├── Teams.csv
+    ├── TotalPastStats.csv
+    ├── fpl_csv_converter.py
+    └── requirements.txt
+```
+
+
+## Contribute
+
+#### What's Finished
+* Statistical Analysis with Visuals: Jupyter Notebook utilizing pandas and matplotlib
+* Data Collection: Python Web Scraper that converts API endpoint JSON into a MySQL Database
+* Interactive Data Visualization(s): d3.js, matplotlib, pandas, and Flask
+
+#### What's Left
+* Webscraper Refactor
+* Flask App Redesign (planned 2017-2018 season release)
+* Create an automated Fantasy Manager
+
+
+## License
+
+[MIT](LICENSE) © Kyle Holmberg
