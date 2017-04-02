@@ -19,6 +19,7 @@ def index():
 
 @app.route('/players', methods=['GET', 'POST'])
 def players():
+    # TODO: Edit line 23 to get DB location from config
     con = create_engine('mysql+pymysql://guest:guest@ix.cs.uoregon.edu:3640/fpl', echo=False)
 
     country = request.form['country']
